@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <head>
-    <meta http-equiv="refresh" content="0.01; URL=./index.php">
+    <meta http-equiv="refresh" content="0.01; URL=./index.php?comeFrom=./shell.php">
     <link rel="icon" type="image/x-icon" href="./src/img/homework-favicon1.png">
 </head>
 

@@ -15,7 +15,7 @@ $errflag = true;
 if($errflag) {
         $_SESSION['ERRMSG_ARR'] = $errmsg_arr;
         session_write_close();
-        header("location: index.php");
+        header("location: index.php?comeFrom=./save.php;POST-Data=$message");
         exit();
 }
 die;

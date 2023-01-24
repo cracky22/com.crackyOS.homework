@@ -28,11 +28,11 @@
         <div class="mdl-layout__drawer">
             <span class="mdl-layout-title">Menü</span>
             <nav class="mdl-navigation">
-                <a class="mdl-navigation__link" title="Zurück&nbsp;gehen" href="./index.php">&#127968;&nbsp;Home</a>
+                <a class="mdl-navigation__link" title="Zurück&nbsp;gehen" href="./index.php?comeFrom=./changeLog.php">&#127968;&nbsp;Home</a>
                 <a class="mdl-navigation__link" title="E-Mail&nbsp;schreiben" href="mailto:cracky2208@gmail.com?subject=report from com.crackyOS.homework in @contact">&#128231;&nbsp;Kontakt</a>
-                <a class="mdl-navigation__link" title="Datenschutz&nbsp;öffnen" href="./Datenschutz.php">&#128272;&nbsp;Datenschutz</a>
-                <a class="mdl-navigation__link" title="Impressum&nbsp;öffnen" href="./Impressum.php">&#128209;&nbsp;Impressum</a>
-                <a class="mdl-navigation__link" title="Info&nbsp;zu&nbsp;aktuellen&nbsp;Version&nbsp;+&nbsp;Änderungen" href="./changeLog.php"><p class="version"><script src="./src/js/version.js"></script></p></a>
+                <a class="mdl-navigation__link" title="Datenschutz&nbsp;öffnen" href="./Datenschutz.php?comeFrom=./changeLog.php">&#128272;&nbsp;Datenschutz</a>
+                <a class="mdl-navigation__link" title="Impressum&nbsp;öffnen" href="./Impressum.php?comeFrom=./changeLog.php">&#128209;&nbsp;Impressum</a>
+                <a class="mdl-navigation__link" title="Info&nbsp;zu&nbsp;aktuellen&nbsp;Version&nbsp;+&nbsp;Änderungen" href="#dubleClick"><p class="version"><script src="./src/js/version.js"></script></p></a>
                 <a class="mdl-navigation__link" title="&copy;&nbsp;Martin&nbsp;Blieninger" href="#">&#169;&nbsp;<b>cracky></b>&nbsp;<small>by Martin B.<sup>&nbsp;2023</sup></small></a>
             </nav>
         </div>

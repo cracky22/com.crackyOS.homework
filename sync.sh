@@ -1,3 +1,3 @@
 cat HomeWorkData.html
 sync
-sleep 1.8
+sleep 1

@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
     <script src="./src/js/script.js"></script>
-    <link rel="stylesheet" href="./src/css/style-index.css">
+    <link rel="stylesheet" href="./src/css/style.css">
     <link rel="icon" type="image/x-icon" href="./src/img/homework-favicon1.png">
     <title>Neuigkeiten</title>
 </head>
@@ -64,6 +64,8 @@
 			      location.reload();
 			    }
 			</script>
+            <br>
+            <img class="HWImage" src="./src/img/homework-favicon2.png" >
 		    </center>
                 </div>
             </div>

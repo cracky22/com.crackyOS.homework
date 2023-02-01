@@ -18,7 +18,7 @@
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
         <header class="mdl-layout__header">
             <div class="mdl-layout__header-row">
-                <span class="mdl-layout-title">Hausaufgaben&nbsp;&#127979;&nbsp;&#128218;&nbsp;<b>9E</b></span>
+                <span class="mdl-layout-title">Hausaufgaben&nbsp;<b>9E</b>&nbsp;&#127979;&nbsp;&#128218;</span>
                 <div class="mdl-layout-spacer"></div>
                 <nav class="mdl-navigation mdl-layout--large-screen-only">
                     

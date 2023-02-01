@@ -1,0 +1,59 @@
+p.version {
+    color: #3e487b;
+    font-weight: 700;
+}
+
+h3.NewsHeader {
+    font-size: 190%;
+    color: #3e487b;
+    font-weight: 600;
+    text-align: center;
+}
+
+p.changes {
+    font-size: 120%;
+    color: #152367;
+}
+
+p.info {
+    width: 130px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+input.homework {
+    background-color: #4c6ba8;
+    color: black;
+    width: 42%;
+    border-radius: 6px;
+}
+
+input.submit {
+    border-radius: 6px;
+}
+
+select.fach {
+    width: 30%;
+    color: white;
+    background-color: #26537a;
+    background: #26537a;
+    border-radius: 6px;
+}
+
+::placeholder {
+    color: white;
+}
+
+:-ms-input-placeholder {
+    color: white;
+}
+
+::-ms-input-placeholder {
+    color: white;
+}
+
+img.HWImage {
+    height: 150px;
+    width: 160px;
+    margin-top: 20px;
+}

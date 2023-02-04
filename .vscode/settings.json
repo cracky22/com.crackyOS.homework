@@ -1,3 +1,6 @@
 {
-    "git.ignoreLimitWarning": true
+    "git.ignoreLimitWarning": false,
+    "crackyOS.codeExecution": true,
+    "screencastMode.keyboardOverlayTimeout": 800,
+    "scss.lint.duplicateProperties": "ignore"
 }

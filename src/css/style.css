@@ -319,14 +319,16 @@ p.qr-text {
 button.usrSettings {
     height: 60px;
     width: 210px;
+    transition: 1.3s;
 }
 
 button.usrSettings:hover {
-    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.626), 0 8px 10px 0 rgba(0, 0, 0, 0.653);
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.755), 0 8px 10px 0 rgba(0, 0, 0, 0.744);
+    transition: 0.3s;
 }
 
 button.red {
-    background-color: rgba(255, 0, 0, 0.726);
+    background-color: rgba(255, 0, 0, 0.76);
     color: white;
     font-size: 15px;
     font-weight: 550;
@@ -336,8 +338,38 @@ button.red {
 
 
 button.green {
-    background-color: rgba(56, 103, 58, 0.673);
-    color: white;
+    background-color: rgba(52, 110, 40, 0.752);
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: 550;
+    border: 2.5px solid rgb(0, 0, 0);
+    border-radius: 20px;
+}
+
+
+button.orange {
+    background-color: rgba(218, 156, 0, 0.867);
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: 550;
+    border: 2.5px solid rgb(0, 0, 0);
+    border-radius: 20px;
+}
+
+
+button.yellow {
+    background-color: rgba(227, 255, 44, 0.752);
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: 550;
+    border: 2.5px solid rgb(0, 0, 0);
+    border-radius: 20px;
+}
+
+
+button.brown {
+    background-color: rgba(177, 101, 2, 0.752);
+    color: rgb(0, 0, 0);
     font-size: 15px;
     font-weight: 550;
     border: 2.5px solid rgb(0, 0, 0);
@@ -346,7 +378,7 @@ button.green {
 
 
 button.anthrBlue {
-    background-color: rgba(61, 91, 160, 0.678);
+    background-color: rgba(48, 74, 133, 0.827);
     color: white;
     font-size: 15px;
     font-weight: 550;

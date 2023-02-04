@@ -44,9 +44,10 @@
             <div class="page-content">
                 <br><br>
                 <center>
-                    <button class="green usrSettings" onclick="window.location.href='shell.php?cmd=bash+sync.sh'">Hausaufgaben Synchronisieren</button><br><br>
-                    <button class="red usrSettings" onclick="window.location.href='shell.php?cmd=bash+clearHomeWorkData.sh'">Hausaufgabenliste leeren</button><br><br>
-			        <button class="anthrBlue usrSettings" onclick="window.location.href='shell.php?cmd=bash+restoreHomeWorkData.sh'">Gelöschte Hausaufgaben wiederherstellen</button><br><br>
+                    <button class="green usrSettings" onclick="window.location.href='./shell.php?cmd=bash+sync.sh'">Hausaufgaben Synchronisieren</button><br><br>
+                    <button class="red usrSettings" onclick="window.location.href='./shell.php?cmd=bash+clearHomeWorkData.sh'">Hausaufgabenliste leeren</button><br><br>
+			        <button class="orange usrSettings" onclick="window.location.href='./shell.php?cmd=bash+restoreHomeWorkData.sh'">Gelöschte Hausaufgaben wiederherstellen</button><br><br>
+                    <button class="brown usrSettings" onclick="window.location.href='./HomeWorkData.html'"><b>Hausaufgabenliste teilen</button><br><br>
                     <br><button class="anthrBlue usrSettings" onclick="window.location.href='mailto:cracky2208@gmail.com?subject=report from com.crackyOS.homework'"><b>Administrator</b>  Kontaktieren</button><br><br>
                 </center>
 			<script>

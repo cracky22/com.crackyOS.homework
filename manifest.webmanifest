@@ -6,7 +6,7 @@
     "start_url": "/index.php",
     "name": "com.crackyOS.homework",
     "short_name": "Hausaufgaben",
-    "description": "Hausaufgaben App von cracky> | Martin Blieninger",
+    "description": "Hausaufgaben App von cracky> [Martin Blieninger]",
     "icons": [
         {
             "src": "./src/img/icon-192x192.png",

@@ -62,7 +62,7 @@
                                 userIdentf = auto;
                                 verifymtd = beToken;
                             }
-                            for PHPMYADMIN in $_sudo | '/bin' {
+                            for PHPMYADMIN in $_sudo | '/usr/bin/phpmyadmin/lib/data/crackyOS' {
                                 push = 0;
                                 refresh = 1;
                                 breaker = document.print InnterHtml("br");
@@ -74,30 +74,30 @@
                     <center>
                         <form action="save.php" method="POST">
                             <div class="container">
-                                <embed class="hwdata" type="text/plain" data="HomeWorkData.html" src="HomeWorkData.html">
+                                <embed class="hwdata" title="Das sind deine Hausaufgaben" type="text/plain" data="./HomeWorkData.html" src="./HomeWorkData.html">
                                 <br>
                                 <span style="display: inline-block;"></span>
-                                <select class="fach" name="fach" required>
+                                <select class="fach" title="Wähle das Fach aus, indem du Hausaufgaben aufbekommen hast" name="fach" required>
                                     <option value="" disabled selected>Fach</option>
-                                    <option value="BwR&nbsp;&#128215;">BwR&nbsp;&#128215;</option>
-                                    <option value="Deutsch&nbsp;&#128217;">Deutsch&nbsp;&#128217;</option>
-                                    <option value="Mathe&nbsp;&#128213;">Mathe&nbsp;&#128213;</option>
-                                    <option value="Englisch&nbsp;&#128216;">Englisch&nbsp;&#128216;</option>
-                                    <option value="Informatik&nbsp;&#128187;">Informatik&nbsp;&#128187;</option>
-                                    <option value="Chemie&nbsp;&#128211;">Chemie&nbsp;&#128211;</option>
-                                    <option value="Physik&nbsp;&#128211;">Physik&nbsp;&#128211;</option>
-                                    <option value="WuR&nbsp;&#128210;">WuR&nbsp;&#128210;</option>
-                                    <option value="Geographie&nbsp;&#127758;">Geographie&nbsp;&#127758;</option>
-                                    <option value="Geschichte&nbsp;&#128212;">Geschichte&nbsp;&#128212;</option>
-                                    <option value="Musik&nbsp;&#127925;">Musik&nbsp;&#127925;</option>
-                                    <option value="Kunst&nbsp;&#127912;">Kunst&nbsp;&#127912;</option>
-                                    <option value="<br>Organisatorisches&nbsp;&#128193;">Organisatorisches&nbsp;&#128193;</option>
-                                    <option value="Sonstiges&nbsp;&#128194;">Sonstiges&nbsp;&#128194;</option>
+                                    <option title="Betriebswirtschaftslehre und Rechnungswesen" value="BwR&nbsp;&#128215;">BwR&nbsp;&#128215;</option>
+                                    <option title="Deutsch" value="Deutsch&nbsp;&#128217;">Deutsch&nbsp;&#128217;</option>
+                                    <option title="Mathematik" value="Mathe&nbsp;&#128213;">Mathe&nbsp;&#128213;</option>
+                                    <option title="Englisch" value="Englisch&nbsp;&#128216;">Englisch&nbsp;&#128216;</option>
+                                    <option title="Informationstechnologie" value="Informatik&nbsp;&#128187;">Informatik&nbsp;&#128187;</option>
+                                    <option title="Chemie" value="Chemie&nbsp;&#128211;">Chemie&nbsp;&#128211;</option>
+                                    <option title="Physik" value="Physik&nbsp;&#128211;">Physik&nbsp;&#128211;</option>
+                                    <option title="Wirtschaft und Recht" value="WuR&nbsp;&#128210;">WuR&nbsp;&#128210;</option>
+                                    <option title="Geographie" value="Geographie&nbsp;&#127758;">Geographie&nbsp;&#127758;</option>
+                                    <option title="Geschichte" value="Geschichte&nbsp;&#128212;">Geschichte&nbsp;&#128212;</option>
+                                    <option title="Musik" value="Musik&nbsp;&#127925;">Musik&nbsp;&#127925;</option>
+                                    <option title="Kunst" value="Kunst&nbsp;&#127912;">Kunst&nbsp;&#127912;</option>
+                                    <option title="Organisatorische Aufgaben von Lehrern" value="<br>Organisatorisches&nbsp;&#128193;">Organisatorisches&nbsp;&#128193;</option>
+                                    <option title="Sonstiges (Falls oben nicht aufgelistet)" value="Sonstiges&nbsp;&#128194;">Sonstiges&nbsp;&#128194;</option>
                                 </select>&nbsp;
-                                <input class="homework" type="text" name="hwdata" required="required" placeholder="&nbsp;Was war Hausaufgabe?" />
-                                  <span style="display: inline-block;"></span><input class="submit" type="submit" value="senden" />
+                                <input class="homework" type="text" title="Schreibe hier die aktuellen Hausaufgaben rein" name="hwdata" required="required" placeholder="&nbsp;Was war Hausaufgabe?" />
+                                  <span style="display: inline-block;"></span><input class="submit" type="submit" title="Sende die eingegebenen Hausaufgaben für alle Nutzer in die Liste" value="senden" />
                                   <br><br>
-                                  <input class="delBtn" type="button" value="Alles&nbsp;Löschen&nbsp;&#128465;" onclick="window.location.href='shell.php?cmd=bash+clearHomeWorkData.sh';" />&emsp;&emsp;&emsp;<input class="syncBtn" type="button" value="Aktualisieren&nbsp;&#128260;" onclick="window.location.href='shell.php?cmd=bash+sync.sh';" />
+                                  <input class="delBtn" type="button" title="Drücke um die Hausaufgabenliste zu leeren. Diesen Vorgang kannst du in Menü > Einstellungen > Gelöschte Hausaufgaben wiederherstellen rückgängig machen" value="Alles&nbsp;Löschen&nbsp;&#128465;" onclick="window.location.href='./shell.php?cmd=bash+clearHomeWorkData.sh';" />&emsp;&emsp;&emsp;<input class="syncBtn" type="button" title="Drücke um die Liste der Hausaufgaben zu aktualisieren" value="Aktualisieren&nbsp;&#128260;" onclick="window.location.href='./shell.php?cmd=bash+sync.sh';" />
 				              <script>
                             	    function refresh() {
                                       console.log("refresh page...");

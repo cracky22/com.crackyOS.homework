@@ -1,5 +1,8 @@
 {
  "name": "App",
+ "ApplicationName": "com.crackyOS.homework",
+ "Developer": "Martin Blieninger",
+ "version": "\/version",
  "icons": [
   {
    "src": "\/src/img/android-icon-36x36.png",

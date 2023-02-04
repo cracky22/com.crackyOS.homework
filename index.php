@@ -31,7 +31,7 @@
         <div class="mdl-layout__drawer">
             <span class="mdl-layout-title"><b>Menü</b>&nbsp;-&nbsp;<small>Hausaufgaben</small></span>
             <nav class="mdl-navigation">
-                <a class="mdl-navigation__link" title="E-Mail schreiben" href="mailto:cracky2208@gmail.com?subject=report from com.crackyOS.homework in @contact">&#128231;&nbsp;Kontakt</a>
+                <a class="mdl-navigation__link" title="E-Mail schreiben" href="mailto:cracky2208@gmail.com?subject=report from com.crackyOS.homework">&#128231;&nbsp;Kontakt</a>
                 <a class="mdl-navigation__link" title="Datenschutz&nbsp;öffnen" href="./Datenschutz.php?comeFrom=./index.php">&#128272;&nbsp;Datenschutz</a>
                 <a class="mdl-navigation__link" title="Impressum&nbsp;öffnen" href="./Impressum.php?comeFrom=./index.php">&#128209;&nbsp;Impressum</a>
                 <a class="mdl-navigation__link" title="&#9881;&nbsp;Einstellungen" href="./settings.php?comeFrom=./index.php">&#9881;&nbsp;Einstellungen</a>

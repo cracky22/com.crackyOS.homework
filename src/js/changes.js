@@ -1,4 +1,4 @@
-change1 ="Bereits gelöschte Hausaufgaben<br>können wieder eingesehen werden";
+change1 ="Bereits gelöschte Hausaufgaben<br>können wiederhergestellt werden<br>(Menü > Einstellungen)";
 change2 ="Einige Fehler wurden behoben";
 change3 ="";
 change4 ="";

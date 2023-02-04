@@ -19,7 +19,7 @@
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
         <header class="mdl-layout__header">
             <div class="mdl-layout__header-row">
-                <span class="mdl-layout-title">&#9881;&nbsp;Einstellungen</span>
+                <span class="mdl-layout-title">Einstellungen</span>
                 <div class="mdl-layout-spacer"></div>
                 <nav class="mdl-navigation mdl-layout--large-screen-only">
                     
@@ -42,10 +42,12 @@
         </div>
         <main class="mdl-layout__content">
             <div class="page-content">
-                <br>
+                <br><br>
                 <center>
-                    <button onclick="window.location.href='shell.php?cmd=bash+clearHomeWorkData.sh'">&#128465;&nbsp;Hausaufgabenliste leeren</button><br><br>
-			        <button onclick="window.location.href='shell.php?cmd=bash+restoreHomeWorkData.sh'">&#128260;&nbsp;Bereits gelöschte Haus-<br>aufgaben wiederherstellen</button><br><br>
+                    <button class="green usrSettings" onclick="window.location.href='shell.php?cmd=bash+sync.sh'">Hausaufgaben Synchronisieren</button><br><br>
+                    <button class="red usrSettings" onclick="window.location.href='shell.php?cmd=bash+clearHomeWorkData.sh'">Hausaufgabenliste leeren</button><br><br>
+			        <button class="anthrBlue usrSettings" onclick="window.location.href='shell.php?cmd=bash+restoreHomeWorkData.sh'">Gelöschte Hausaufgaben wiederherstellen</button><br><br>
+                    <br><button class="anthrBlue usrSettings" onclick="window.location.href='mailto:cracky2208@gmail.com?subject=report from com.crackyOS.homework'"><b>Administrator</b>  Kontaktieren</button><br><br>
                 </center>
 			<script>
 			    function refresh() {

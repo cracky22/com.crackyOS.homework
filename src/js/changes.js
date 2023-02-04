@@ -1,8 +1,9 @@
-change1 = "Einige Fehler wurden behoben";
-change2 = "";
-change3 = "";
-change4 = "";
-change5 = "";
-change6 = "";
+change1 ="Bereits gelöschte Hausaufgaben<br>können wieder eingesehen werden";
+change2 ="Einige Fehler wurden behoben";
+change3 ="";
+change4 ="";
 
-document.write("&#45;&nbsp;" + change1);// + "<br>" + "&#45;&nbsp;" + change2 + "<br>" + "&#45;&nbsp;" + change3 + "<br>" + "&#45;&nbsp;" + change4 + "<br>" + "&#45;&nbsp;" + change5 + "<br>" + "&#45;&nbsp;" + change6 + "<br>&nbsp;");
+document.write("&#45;&nbsp;" + change1 + "<br>" + "&#45;&nbsp;" + change2);// + "<br>" + "&#45;&nbsp;" + change3 + "<br>" + "&#45;&nbsp;" + change4);
+
+
+/* + "<br>" + "&#45;&nbsp;" + change5 + "<br>" + "&#45;&nbsp;" + change6 + "<br>" + "&#45;&nbsp;" + change7 + "<br>" + "&#45;&nbsp;" + change8 + "<br>" + "&#45;&nbsp;" + change9 + "<br>" + "&#45;&nbsp;" + change10 + "<br>" + "&#45;&nbsp;" + change11 + "<br>" + "&#45;&nbsp;" + change12 + "<br>&nbsp;");*/

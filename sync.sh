@@ -1,3 +1,3 @@
-cat HomeWorkData.html
+cat HomeWorkData.html | tree -f
 sync
-sleep 1
+sleep 0.8

@@ -5,9 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
-    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/mdl/googleAPI-style.css">
+    <link rel="stylesheet" href="./src/mdl/mdl-style.css">
+    <link rel="manifest" href="./manifest.webmanifest">
+    <script src="./src/mdl/mdl-script.js"></script>
     <link rel="icon" type="image/x-icon" href="./src/img/homework-favicon1.png">
     <title>Impressum</title>
 </head>
@@ -34,11 +36,14 @@
             <span class="mdl-layout-title"><b>Menü</b>&nbsp;-&nbsp;<small>Impressum</small></span>
             <nav class="mdl-navigation">
                 <a class="mdl-navigation__link" title="Zurück&nbsp;gehen" href="./index.php?comeFrom=./Impressum.php">&#127968;&nbsp;Home</a>
-                <a class="mdl-navigation__link" title="E-Mail&nbsp;schreiben" href="mailto:cracky2208@gmail.com?subject=report from com.crackyOS.homework in @contact">&#128231;&nbsp;Kontakt</a>
+                <a class="mdl-navigation__link" title="E-Mail&nbsp;schreiben" href="mailto:cracky2208@gmail.com?subject=report from com.crackyOS.homework">&#128231;&nbsp;Kontakt</a>
                 <a class="mdl-navigation__link" title="Datenschutz&nbsp;öffnen" href="./Datenschutz.php?comeFrom=./Impressum.php">&#128272;&nbsp;Datenschutz</a>
-                <!--<a class="mdl-navigation__link" title="Impressum&nbsp;öffnen" href="./Impressum.php">&#128209;&nbsp;Impressum</a>-->
+                <a class="mdl-navigation__link" title="&#9881;&nbsp;Einstellungen" href="./settings.php?comeFrom=./Impressum.php">&#9881;&nbsp;Einstellungen</a>
                 <a class="mdl-navigation__link" title="Info&nbsp;zu&nbsp;aktuellen&nbsp;Version&nbsp;+&nbsp;Änderungen" href="./changeLog.php?comeFrom=./Impressum.php"><p class="version"><script src="./src/js/version.js"></script></p></a>
-                <a class="mdl-navigation__link" style="background-color: #c3c3c34f;" title="&copy;&nbsp;Martin&nbsp;Blieninger" href="#">&#169;&nbsp;<b>cracky></b>&nbsp;<small>by Martin B.<sup>&nbsp;2023</sup></small></a>
+                <a class="mdl-navigation__link" style="background-color: #c3c3c34f;" title="&copy;&nbsp;Martin&nbsp;Blieninger" href="#">&#169;&nbsp;<b>cracky></b>&nbsp;<small>by&nbsp;Martin&nbsp;B.<sup>&nbsp;2023</sup></small></a>
+                <img class="qr-share" src="./src/img/qr-share-homework.png">
+                    <p class="qr-text">QR-Code zum teilen</p>
+                </img>
             </nav>
         </div>
         <main class="mdl-layout__content">

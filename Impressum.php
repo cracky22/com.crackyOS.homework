@@ -50,7 +50,7 @@
             <div class="page-content">
                 <h3>Impressum</h3>
                 <p>Angaben gem&auml;&szlig; &sect; 5 TMG</p>
-                <p>Martin Blieninger | cracky&gt;<br />Anzingerstra&szlig;e 14C<br />85586 Poing</p>
+                <p>Martin Blieninger | cracky&gt;<br />Wohnort (ausgeblendet)<br />85586 Poing</p>
                 <p><strong>Kontakt:</strong><br />Telefon: 015788293701</p>
                 <p>E-Mail (cracky&gt;): cracky2208@gmail.com<br />E-Mail (Privat): martinblieninger2208@gmail.com</p>
                 <p><strong>Haftungsausschluss:</strong><br /><br /><strong>Haftung f&uuml;r

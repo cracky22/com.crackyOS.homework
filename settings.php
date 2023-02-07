@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="./src/css/style.css">
     <link rel="icon" type="image/x-icon" href="./src/img/homework-favicon1.png">
     <title>Einstellungen</title>
+    <script src="./src/js/sysstat.js"></script>
 </head>
 
 <body>
@@ -42,13 +43,34 @@
         </div>
         <main class="mdl-layout__content">
             <div class="page-content">
-                <br><br>
                 <center>
-                    <button class="green usrSettings" onclick="window.location.href='./shell.php?cmd=bash+sync.sh'">Hausaufgaben Synchronisieren</button><br><br>
-                    <button class="red usrSettings" onclick="window.location.href='./shell.php?cmd=bash+clearHomeWorkData.sh'">Hausaufgabenliste leeren</button><br><br>
-			        <button class="orange usrSettings" onclick="window.location.href='./shell.php?cmd=bash+restoreHomeWorkData.sh'">Gelöschte Hausaufgaben wiederherstellen</button><br><br>
-                    <button class="brown usrSettings" onclick="window.location.href='./HomeWorkData.html'"><b>Hausaufgabenliste teilen</button><br><br>
-                    <br><button class="anthrBlue usrSettings" onclick="window.location.href='mailto:cracky2208@gmail.com?subject=report from com.crackyOS.homework'"><b>Administrator</b>  Kontaktieren</button><br><br>
+                    <h5>Allgemeine Einstellungen</h5>
+                    <button title="Falls die Hausaufgaben nicht korrekt synchronisiert oder angezeigt werden, kannst du hier tippen" class="green usrSettings" onclick="window.location.href='./shell.php?cmd=bash+sync.sh'">Hausaufgaben Synchronisieren</button><br>
+                    <button title="Tippe hier um alle Einträge in der Hausaufgabenliste zu leeren" class="red usrSettings" onclick="window.location.href='./shell.php?cmd=bash+clearHomeWorkData.sh'">Hausaufgabenliste leeren</button><br>
+			        <button title="Du hast ausversehen die Hausaufgabenliste geleert? Dann tippe hier um sie wiederherzustellen" class="orange usrSettings" onclick="window.location.href='./shell.php?cmd=bash+restoreHomeWorkData.sh'">Gelöschte Hausaufgaben wiederherstellen</button><br>
+                    <button title="Falls du die Hausaufgaben ohne Schreibrechte teilen willst, kannst du hier tippen" class="brown usrSettings" onclick="window.location.href='./HomeWorkData.html'"><b>Hausaufgabenliste teilen</button><br>
+                </center>
+                <center>
+                    <div class="sysstat">
+                        <h6 id="sysstat" class="sysstat"></h6>
+                    </div>
+                    <button title="Du hast nen Bug gefunden oder Anliegen / Ideen für die Umsetzung, dann schreib mit ne Mail" class="anthrBlue usrSettings" onclick="window.location.href='mailto:cracky2208@gmail.com?subject=report from com.crackyOS.homework'"><b>Administrator</b>  Kontaktieren</button><br><br>
+                </center>
+                <center>
+                    <div class="sysinfo">
+                        <h6 class="header">
+                          <small><u>&emsp;Systeminformationen&emsp;</u></small>
+                        <p>
+                            <small>
+                                <b>Server:</b>&nbsp;Raspberry&nbsp;Pi&nbsp;4B&nbsp;4GB&nbsp;DDR4&nbsp;RAM
+                                <br>
+                                <b>Betriebssystem:</b>&nbsp;Debian&nbsp;(Raspbian)&nbsp;11&nbsp;Lite
+                                <br>
+                                <b>WebServer</b>&nbsp;/&nbsp;<b>Backend:</b>&nbsp;Apache2&nbsp;/&nbsp;PHP&nbsp;8.1
+                            </small>
+                        </p>
+                    </h6>
+                    </div>
                 </center>
 			<script>
 			    function refresh() {

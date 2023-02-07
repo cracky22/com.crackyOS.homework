@@ -319,6 +319,7 @@ p.qr-text {
 button.usrSettings {
     height: 60px;
     width: 210px;
+    margin-top: 10px;
     transition: 1.3s;
 }
 
@@ -384,4 +385,10 @@ button.anthrBlue {
     font-weight: 550;
     border: 2.5px solid rgb(0, 0, 0);
     border-radius: 20px;
+}
+
+h6.header {
+    height: 105px;
+    width: 190px;
+    border: 0.5px solid gray;
 }

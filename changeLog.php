@@ -61,7 +61,7 @@
                             <script src="./src/js/changes.js"></script>
                         </p>
 			<br>
-			<button onclick="refresh()">
+			<button title="Wenn du nach Updates sehen willst oder die Seite nicht korrekt geladen hat, kannst du sie hier aktualisieren" onclick="refresh()">
 			    manuell
                     <br>
                 aktualisieren

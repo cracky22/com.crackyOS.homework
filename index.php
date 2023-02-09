@@ -11,7 +11,7 @@
     <script src="./src/js/script.js"></script>
     <script src="./src/js/sync.js"></script>
     <script src="./src/js/syncLoader.js"></script>
-    <link rel="manifest" href="./manifest.webmanifest">
+    <link rel="manifest" href="./config/manifest.webmanifest">
     <link rel="stylesheet" href="./src/css/style.css">
     <link rel="icon" type="image/x-icon" href="./src/img/homework-favicon1.png">
     <title>Hausaufgaben 9E</title>
@@ -31,9 +31,10 @@
         <div class="mdl-layout__drawer">
             <span class="mdl-layout-title"><b>Menü</b>&nbsp;-&nbsp;<small>Hausaufgaben</small></span>
             <nav class="mdl-navigation">
+                <a class="mdl-navigation__link" title="Termine&nbsp;ansehen" href="./calendar.php?comeFrom=./index.php">&#128467;&nbsp;Termine</a>
                 <a class="mdl-navigation__link" title="E-Mail schreiben" href="mailto:cracky2208@gmail.com?subject=report from com.crackyOS.homework">&#128231;&nbsp;Kontakt</a>
-                <a class="mdl-navigation__link" title="Datenschutz&nbsp;öffnen" href="./Datenschutz.php?comeFrom=./index.php">&#128272;&nbsp;Datenschutz</a>
-                <a class="mdl-navigation__link" title="Impressum&nbsp;öffnen" href="./Impressum.php?comeFrom=./index.php">&#128209;&nbsp;Impressum</a>
+                <a class="mdl-navigation__link" title="Datenschutz&nbsp;öffnen" href="./p/Datenschutz.php?comeFrom=../index.php">&#128272;&nbsp;Datenschutz</a>
+                <a class="mdl-navigation__link" title="Impressum&nbsp;öffnen" href="./p/Impressum.php?comeFrom=../index.php">&#128209;&nbsp;Impressum</a>
                 <a class="mdl-navigation__link" title="&#9881;&nbsp;Einstellungen" href="./settings.php?comeFrom=./index.php">&#9881;&nbsp;Einstellungen</a>
                 <a class="mdl-navigation__link" title="Info&nbsp;zu&nbsp;aktuellen&nbsp;Version&nbsp;+&nbsp;Änderungen" href="./changeLog.php?comeFrom=./index.php"><p class="version"><script src="./src/js/version.js"></script></p></a>
                 <a class="mdl-navigation__link" style="background-color: #c3c3c34f;" title="&copy;&nbsp;Martin&nbsp;Blieninger" href="#">&#169;&nbsp;<b>cracky></b>&nbsp;<small>by&nbsp;Martin&nbsp;B.<sup>&nbsp;2023</sup></small></a>
@@ -96,8 +97,20 @@
                                 </select>&nbsp;
                                 <input class="homework" type="text" title="Schreibe hier die aktuellen Hausaufgaben rein" name="hwdata" required="required" placeholder="&nbsp;Was war Hausaufgabe?" />
                                   <span style="display: inline-block;"></span><input class="submit" type="submit" title="Sende die eingegebenen Hausaufgaben für alle Nutzer in die Liste" value="senden" />
-                                  <br><br>
-                                  <input class="delBtn" type="button" title="Drücke um die Hausaufgabenliste zu leeren. Diesen Vorgang kannst du in Menü > Einstellungen > Gelöschte Hausaufgaben wiederherstellen rückgängig machen" value="Alles&nbsp;Löschen&nbsp;&#128465;" onclick="window.location.href='./shell.php?cmd=bash+clearHomeWorkData.sh';" />&emsp;&emsp;&emsp;<input class="syncBtn" type="button" title="Drücke um die Liste der Hausaufgaben zu aktualisieren" value="Aktualisieren&nbsp;&#128260;" onclick="window.location.href='./shell.php?cmd=bash+sync.sh';" />
+                                  <br>
+                                  <select class="date" title="" name="date" required>
+                                    <option value="" disabled selected>bis wann?</option>
+                                    <option title="Die Hausaufgaben sind bis Montag zu erledigen" value=" (bis Montag)">Montag</option>
+                                    <option title="Die Hausaufgaben sind bis Dienstag zu erledigen" value=" (bis Dienstag)">Dienstag</option>
+                                    <option title="Die Hausaufgaben sind bis Mittwoch zu erledigen" value=" (bis Mittwoch)">Mittwoch</option>
+                                    <option title="Die Hausaufgaben sind bis Donnerstag zu erledigen" value=" (bis Donnerstag)">Donnerstag</option>
+                                    <option title="Die Hausaufgaben sind bis Freitagtag zu erledigen" value=" (bis Freitag)">Freitag</option>
+                                    <option title="Die Hausaufgaben sind bis nächste Woche zu erledigen" value="(bis nächste Woche)">1 Woche</option>
+                                </select>
+                                  <br>
+                                  <input class="delBtn" type="button" title="Drücke um die Hausaufgabenliste zu leeren. Diesen Vorgang kannst du in Menü > Einstellungen > Gelöschte Hausaufgaben wiederherstellen rückgängig machen" value="Alles&nbsp;Löschen&nbsp;&#128465;" onclick="window.location.href='./shell.php?cmd=bash+clearHomeWorkData.sh';" />
+                                  &emsp;&emsp;&emsp;
+                                  <input class="syncBtn" type="button" title="Drücke um die Liste der Hausaufgaben zu aktualisieren" value="Aktualisieren&nbsp;&#128260;" onclick="window.location.href='./shell.php?cmd=bash+./src/sh/sync.sh';" />
 				              <script>
                             	    function refresh() {
                                       console.log("refresh page...");

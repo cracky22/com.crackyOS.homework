@@ -5,12 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./src/css/style.css">
-    <link rel="stylesheet" href="./src/mdl/googleAPI-style.css">
-    <link rel="stylesheet" href="./src/mdl/mdl-style.css">
-    <link rel="manifest" href="./manifest.webmanifest">
-    <script src="./src/mdl/mdl-script.js"></script>
-    <link rel="icon" type="image/x-icon" href="./src/img/homework-favicon1.png">
+    <link rel="stylesheet" href="../src/css/style.css">
+    <link rel="stylesheet" href="../src/mdl/googleAPI-style.css">
+    <link rel="stylesheet" href="../src/mdl/mdl-style.css">
+    <link rel="manifest" href="../config/manifest.webmanifest">
+    <script src="../src/mdl/mdl-script.js"></script>
+    <link rel="icon" type="image/x-icon" href="../src/img/homework-favicon1.png">
     <title>Impressum</title>
 </head>
 
@@ -26,29 +26,44 @@
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
         <header class="mdl-layout__header">
             <div class="mdl-layout__header-row">
-                <span class="mdl-layout-title">Datenschutz</span>
+                <span class="mdl-layout-title">Impressum</span>
                 <div class="mdl-layout-spacer"></div>
                 <nav class="mdl-navigation mdl-layout--large-screen-only">
                 </nav>
             </div>
         </header>
         <div class="mdl-layout__drawer">
-            <span class="mdl-layout-title"><b>Menü</b>&nbsp;-&nbsp;<small>Datenschutz</small></span>
+            <span class="mdl-layout-title"><b>Menü</b>&nbsp;-&nbsp;<small>Impressum</small></span>
             <nav class="mdl-navigation">
-                <a class="mdl-navigation__link" title="Zurück&nbsp;gehen" href="./index.php?comeFrom=./Datenschutz.php">&#127968;&nbsp;Home</a>
+                <a class="mdl-navigation__link" title="Zurück&nbsp;gehen" href="../index.php?comeFrom=./p/Impressum.php">&#127968;&nbsp;Home</a>
+                <a class="mdl-navigation__link" title="Termine&nbsp;ansehen" href="../calendar.php?comeFrom=./p/Impressum.php">&#128467;&nbsp;Termine</a>
                 <a class="mdl-navigation__link" title="E-Mail&nbsp;schreiben" href="mailto:cracky2208@gmail.com?subject=report from com.crackyOS.homework">&#128231;&nbsp;Kontakt</a>
-                <a class="mdl-navigation__link" title="Impressum&nbsp;öffnen" href="./Impressum.php?comeFrom=./Datenschutz.php">&#128209;&nbsp;Impressum</a>
-                <a class="mdl-navigation__link" title="&#9881;&nbsp;Einstellungen" href="./settings.php?comeFrom=./Datenschutz.php">&#9881;&nbsp;Einstellungen</a>
-                <a class="mdl-navigation__link" title="Info&nbsp;zu&nbsp;aktuellen&nbsp;Version&nbsp;+&nbsp;Änderungen" href="./changeLog.php?comeFrom=./Datenschutz.php"><p class="version"><script src="./src/js/version.js"></script></p></a>
+                <a class="mdl-navigation__link" title="Datenschutz&nbsp;öffnen" href="./Datenschutz.php?comeFrom=./Impressum.php">&#128272;&nbsp;Datenschutz</a>
+                <a class="mdl-navigation__link" title="&#9881;&nbsp;Einstellungen" href="../settings.php?comeFrom=./p/Impressum.php">&#9881;&nbsp;Einstellungen</a>
+                <a class="mdl-navigation__link" title="Info&nbsp;zu&nbsp;aktuellen&nbsp;Version&nbsp;+&nbsp;Änderungen" href="../changeLog.php?comeFrom=./p/Impressum.php"><p class="version"><script src="../src/js/version.js"></script></p></a>
                 <a class="mdl-navigation__link" style="background-color: #c3c3c34f;" title="&copy;&nbsp;Martin&nbsp;Blieninger" href="#">&#169;&nbsp;<b>cracky></b>&nbsp;<small>by&nbsp;Martin&nbsp;B.<sup>&nbsp;2023</sup></small></a>
-                <img class="qr-share" src="./src/img/qr-share-homework.png">
+                <img class="qr-share" src="../src/img/qr-share-homework.png">
                     <p class="qr-text">QR-Code zum teilen</p>
                 </img>
             </nav>
         </div>
         <main class="mdl-layout__content">
             <div class="page-content">
-                    <strong>Datenschutz</strong><br /><br /><strong>Die Nutzung unserer
+                <h3>Impressum</h3>
+                <p>Angaben gem&auml;&szlig; &sect; 5 TMG</p>
+                <p>Martin Blieninger | cracky&gt;<br />Wohnort (ausgeblendet)<br />85586 Poing</p>
+                <p><strong>Kontakt:</strong><br />Telefon: 015788293701</p>
+                <p>E-Mail (cracky&gt;): cracky2208@gmail.com<br />E-Mail (Privat): martinblieninger2208@gmail.com</p>
+                <p><strong>Haftungsausschluss:</strong><br /><br /><strong>Haftung f&uuml;r
+                        Links</strong><br /><br />Unser Angebot enth&auml;lt Links zu externen API's und Webseiten
+                    Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb k&ouml;nnen wir f&uuml;r diese fremden
+                    Inhalte auch keine Gew&auml;hr &uuml;bernehmen. F&uuml;r die Inhalte der verlinkten Seiten ist stets
+                    der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum
+                    Zeitpunkt der Verlinkung auf m&ouml;gliche Rechtsverst&ouml;&szlig;e &uuml;berpr&uuml;ft.
+                    Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. Eine permanente
+                    inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer
+                    Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links
+                    umgehend entfernen.<br /><br /><strong>Datenschutz</strong><br /><br /><strong>Die Nutzung unserer
                         Webseite</strong> ist <em>in der Regel</em> ohne Angabe personenbezogener Daten
                     <strong>m&ouml;glich</strong>. Soweit auf unseren Seiten personenbezogene Daten (beispielsweise
                     Name, Anschrift oder E-Mail-Adressen) erhoben werden, erfolgt dies, soweit m&ouml;glich, stets
@@ -80,7 +95,6 @@
                     &uuml;ber Sie erhobenen Daten durch Google in der zuvor beschriebenen Art und Weise und zu dem zuvor
                     benannten Zweck einverstanden.
                 </p>
-
             </div>
         </main>
     </div>

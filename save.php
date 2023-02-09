@@ -15,10 +15,11 @@ $errmsg_arr = array();
 $errflag = false;
 $fach	= trim($_REQUEST["fach"]);
 $hwdata  = trim($_REQUEST["hwdata"]);
+$date = trim($_REQUEST["date"]);
 $br	=	"<br>";
 $filename       = "HomeWorkData.html";
 $MyFile         = fopen($filename, "a");
-$message='<p class="hwdata"><i><b>Hausaufgabe</b></i>&nbsp;in&nbsp;<u><b>'.$fach.'</b></u>&#58; '.$hwdata."\r\n \n";
+$message='<p class="hwdata"><i><b>Hausaufgabe</b></i>&nbsp;in&nbsp;<u><b>'.$fach.'</b>'.$date.'</u>&#58; '.$hwdata."\r\n \n";
 fwrite($MyFile, $message);
 fclose($MyFile);
 $errmsg_arr[] = 'Hausaufgabe gesendet';
@@ -32,7 +33,7 @@ if($errflag) {
 die;
 ?>
 <?php
-    exec("sudo bash sync.sh");
+    exec("sudo bash ./src/sh/sync.sh");
 ?>
 
 </body>

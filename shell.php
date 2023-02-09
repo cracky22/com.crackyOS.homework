@@ -20,7 +20,7 @@
         }
     ?>
     <?php
-        exec("sudo bash sync.sh");
+        exec("sudo bash ./src/sh/sync.sh");
     ?>
     </pre>
 </body>

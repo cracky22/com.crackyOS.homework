@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./src/mdl/mdl-style.css">
     <script src="./src/mdl/mdl-script.js"></script>
     <script src="./src/js/script.js"></script>
-    <link rel="manifest" href="./manifest.webmanifest">
+    <link rel="manifest" href="./config/manifest.webmanifest">
     <link rel="stylesheet" href="./src/css/style.css">
     <link rel="icon" type="image/x-icon" href="./src/img/homework-favicon1.png">
     <title>Einstellungen</title>
@@ -31,9 +31,10 @@
             <span class="mdl-layout-title"><b>Menü</b>&nbsp;-&nbsp;<small>Einstellungen</small></span>
             <nav class="mdl-navigation">
                 <a class="mdl-navigation__link" title="Zurück&nbsp;gehen" href="./index.php?comeFrom=./settings.php">&#127968;&nbsp;Home</a>
+                <a class="mdl-navigation__link" title="Termine&nbsp;ansehen" href="./calendar.php?comeFrom=./settings.php">&#128467;&nbsp;Termine</a>
                 <a class="mdl-navigation__link" title="E-Mail&nbsp;schreiben" href="mailto:cracky2208@gmail.com?subject=report from com.crackyOS.homework">&#128231;&nbsp;Kontakt</a>
-                <a class="mdl-navigation__link" title="Datenschutz&nbsp;öffnen" href="./Datenschutz.php?comeFrom=./settings.php">&#128272;&nbsp;Datenschutz</a>
-                <a class="mdl-navigation__link" title="Impressum&nbsp;öffnen" href="./Impressum.php?comeFrom=./settings.php">&#128209;&nbsp;Impressum</a>
+                <a class="mdl-navigation__link" title="Datenschutz&nbsp;öffnen" href="./p/Datenschutz.php?comeFrom=../settings.php">&#128272;&nbsp;Datenschutz</a>
+                <a class="mdl-navigation__link" title="Impressum&nbsp;öffnen" href="./p/Impressum.php?comeFrom=../settings.php">&#128209;&nbsp;Impressum</a>
                 <a class="mdl-navigation__link" title="Info&nbsp;zu&nbsp;aktuellen&nbsp;Version&nbsp;+&nbsp;Änderungen" href="#dubleClick"><p class="version"><script src="./src/js/version.js"></script></p></a>
                 <a class="mdl-navigation__link" style="background-color: #c3c3c34f;" title="&copy;&nbsp;Martin&nbsp;Blieninger" href="#">&#169;&nbsp;<b>cracky></b>&nbsp;<small>by&nbsp;Martin&nbsp;B.<sup>&nbsp;2023</sup></small></a>
                 <img class="qr-share" src="./src/img/qr-share-homework.png">
@@ -45,7 +46,7 @@
             <div class="page-content">
                 <center>
                     <h5>Allgemeine Einstellungen</h5>
-                    <button title="Falls die Hausaufgaben nicht korrekt synchronisiert oder angezeigt werden, kannst du hier tippen" class="green usrSettings" onclick="window.location.href='./shell.php?cmd=bash+sync.sh'">Hausaufgaben Synchronisieren</button><br>
+                    <button title="Falls die Hausaufgaben nicht korrekt synchronisiert oder angezeigt werden, kannst du hier tippen" class="green usrSettings" onclick="window.location.href='./shell.php?cmd=bash+./src/sh/sync.sh'">Hausaufgaben Synchronisieren</button><br>
                     <button title="Tippe hier um alle Einträge in der Hausaufgabenliste zu leeren" class="red usrSettings" onclick="window.location.href='./shell.php?cmd=bash+clearHomeWorkData.sh'">Hausaufgabenliste leeren</button><br>
 			        <button title="Du hast ausversehen die Hausaufgabenliste geleert? Dann tippe hier um sie wiederherzustellen" class="orange usrSettings" onclick="window.location.href='./shell.php?cmd=bash+restoreHomeWorkData.sh'">Gelöschte Hausaufgaben wiederherstellen</button><br>
                     <button title="Falls du die Hausaufgaben ohne Schreibrechte teilen willst, kannst du hier tippen" class="brown usrSettings" onclick="window.location.href='./HomeWorkData.html'"><b>Hausaufgabenliste teilen</button><br>

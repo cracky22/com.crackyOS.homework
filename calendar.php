@@ -19,9 +19,7 @@
 	<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
 		<header class="mdl-layout__header">
 			<div class="mdl-layout__header-row">
-				<span class="mdl-layout-title">Termine&nbsp;<b>9E</b>
-					<div class="mdl-spinner mdl-js-spinner is-active"></div>
-				</span>
+				<span class="mdl-layout-title">Termine&nbsp;<b>9E</b></span>
 				<div class="mdl-layout-spacer"></div>
 				<nav class="mdl-navigation mdl-layout--large-screen-only">
 
@@ -32,10 +30,10 @@
 			<span class="mdl-layout-title"><b>Menü</b>&nbsp;-&nbsp;<small>Termine</small></span>
 			<nav class="mdl-navigation">
 				<a class="mdl-navigation__link" title="Zurück&nbsp;gehen" href="./index.php?comeFrom=./calendar.php">&#127968;&nbsp;Home</a>
-				<a class="mdl-navigation__link" title="E-Mail&nbsp;schreiben" href="mailto:cracky2208@gmail.com?subject=report from com.crackyOS.homework">&#128231;&nbsp;Kontakt</a>
 				<a class="mdl-navigation__link" title="Datenschutz&nbsp;öffnen" href="./p/Datenschutz.php?comeFrom=../calendar.php">&#128272;&nbsp;Datenschutz</a>
 				<a class="mdl-navigation__link" title="Impressum&nbsp;öffnen" href="./p/Impressum.php?comeFrom=../calendar.php">&#128209;&nbsp;Impressum</a>
 				<a class="mdl-navigation__link" title="&#9881;&nbsp;Einstellungen" href="./settings.php?comeFrom=./calendar.php">&#9881;&nbsp;Einstellungen</a>
+				<a class="mdl-navigation__link" title="E-Mail schreiben" href="mailto:cracky2208@gmail.com?subject=report from com.crackyOS.homework">&#128231;&nbsp;Kontakt</a>
 				<a class="mdl-navigation__link" title="Info&nbsp;zu&nbsp;aktuellen&nbsp;Version&nbsp;+&nbsp;Änderungen" href="./changeLog.php?comeFrom=./calendar.php">
 					<p class="version">
 						<script src="./src/js/version.js"></script>

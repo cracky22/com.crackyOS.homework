@@ -37,9 +37,9 @@
             <nav class="mdl-navigation">
                 <a class="mdl-navigation__link" title="Zurück&nbsp;gehen" href="../index.php?comeFrom=./p/Datenschutz.php">&#127968;&nbsp;Home</a>
                 <a class="mdl-navigation__link" title="Termine&nbsp;ansehen" href="../calendar.php?comeFrom=./p/Datenschutz.php">&#128467;&nbsp;Termine</a>
-                <a class="mdl-navigation__link" title="E-Mail&nbsp;schreiben" href="mailto:cracky2208@gmail.com?subject=report from com.crackyOS.homework">&#128231;&nbsp;Kontakt</a>
                 <a class="mdl-navigation__link" title="Impressum&nbsp;öffnen" href="./p/Impressum.php?comeFrom=./Datenschutz.php">&#128209;&nbsp;Impressum</a>
                 <a class="mdl-navigation__link" title="&#9881;&nbsp;Einstellungen" href="../settings.php?comeFrom=./p/Datenschutz.php">&#9881;&nbsp;Einstellungen</a>
+                <a class="mdl-navigation__link" title="E-Mail schreiben" href="mailto:cracky2208@gmail.com?subject=report from com.crackyOS.homework">&#128231;&nbsp;Kontakt</a>
                 <a class="mdl-navigation__link" title="Info&nbsp;zu&nbsp;aktuellen&nbsp;Version&nbsp;+&nbsp;Änderungen" href="../changeLog.php?comeFrom=./p/Datenschutz.php"><p class="version"><script src="../src/js/version.js"></script></p></a>
                 <a class="mdl-navigation__link" style="background-color: #c3c3c34f;" title="&copy;&nbsp;Martin&nbsp;Blieninger" href="#">&#169;&nbsp;<b>cracky></b>&nbsp;<small>by&nbsp;Martin&nbsp;B.<sup>&nbsp;2023</sup></small></a>
                 <img class="qr-share" src="../src/img/qr-share-homework.png">

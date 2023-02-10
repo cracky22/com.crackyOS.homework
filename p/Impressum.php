@@ -37,6 +37,7 @@
             <nav class="mdl-navigation">
                 <a class="mdl-navigation__link" title="Zurück&nbsp;gehen" href="../index.php?comeFrom=./p/Impressum.php">&#127968;&nbsp;Home</a>
                 <a class="mdl-navigation__link" title="Termine&nbsp;ansehen" href="../calendar.php?comeFrom=./p/Impressum.php">&#128467;&nbsp;Termine</a>
+                <a class="mdl-navigation__link" title="Stundenplan&nbsp;öffnen" href="../timetable.php?comeFrom=./p/Impressum.php">&#128198;&nbsp;Stundenplan</a>
                 <a class="mdl-navigation__link" title="Datenschutz&nbsp;öffnen" href="./Datenschutz.php?comeFrom=./Impressum.php">&#128272;&nbsp;Datenschutz</a>
                 <a class="mdl-navigation__link" title="&#9881;&nbsp;Einstellungen" href="../settings.php?comeFrom=./p/Impressum.php">&#9881;&nbsp;Einstellungen</a>
                 <a class="mdl-navigation__link" title="E-Mail schreiben" href="mailto:cracky2208@gmail.com?subject=report from com.crackyOS.homework">&#128231;&nbsp;Kontakt</a>

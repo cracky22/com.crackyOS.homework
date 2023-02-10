@@ -37,7 +37,8 @@
             <nav class="mdl-navigation">
                 <a class="mdl-navigation__link" title="Zurück&nbsp;gehen" href="../index.php?comeFrom=./p/Datenschutz.php">&#127968;&nbsp;Home</a>
                 <a class="mdl-navigation__link" title="Termine&nbsp;ansehen" href="../calendar.php?comeFrom=./p/Datenschutz.php">&#128467;&nbsp;Termine</a>
-                <a class="mdl-navigation__link" title="Impressum&nbsp;öffnen" href="./p/Impressum.php?comeFrom=./Datenschutz.php">&#128209;&nbsp;Impressum</a>
+                <a class="mdl-navigation__link" title="Stundenplan&nbsp;öffnen" href="../timetable.php?comeFrom=./p/Datenschutz.php">&#128198;&nbsp;Stundenplan</a>
+                <a class="mdl-navigation__link" title="Impressum&nbsp;öffnen" href="./Impressum.php?comeFrom=./Datenschutz.php">&#128209;&nbsp;Impressum</a>
                 <a class="mdl-navigation__link" title="&#9881;&nbsp;Einstellungen" href="../settings.php?comeFrom=./p/Datenschutz.php">&#9881;&nbsp;Einstellungen</a>
                 <a class="mdl-navigation__link" title="E-Mail schreiben" href="mailto:cracky2208@gmail.com?subject=report from com.crackyOS.homework">&#128231;&nbsp;Kontakt</a>
                 <a class="mdl-navigation__link" title="Info&nbsp;zu&nbsp;aktuellen&nbsp;Version&nbsp;+&nbsp;Änderungen" href="../changeLog.php?comeFrom=./p/Datenschutz.php"><p class="version"><script src="../src/js/version.js"></script></p></a>

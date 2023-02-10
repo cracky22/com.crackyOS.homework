@@ -32,6 +32,7 @@
             <span class="mdl-layout-title"><b>Menü</b>&nbsp;-&nbsp;<small>Hausaufgaben</small></span>
             <nav class="mdl-navigation">
                 <a class="mdl-navigation__link" title="Termine&nbsp;ansehen" href="./calendar.php?comeFrom=./index.php">&#128467;&nbsp;Termine</a>
+                <a class="mdl-navigation__link" title="Stundenplan&nbsp;öffnen" href="./timetable.php?comeFrom=./index.php">&#128198;&nbsp;Stundenplan</a>
                 <a class="mdl-navigation__link" title="Datenschutz&nbsp;öffnen" href="./p/Datenschutz.php?comeFrom=../index.php">&#128272;&nbsp;Datenschutz</a>
                 <a class="mdl-navigation__link" title="Impressum&nbsp;öffnen" href="./p/Impressum.php?comeFrom=../index.php">&#128209;&nbsp;Impressum</a>
                 <a class="mdl-navigation__link" title="&#9881;&nbsp;Einstellungen" href="./settings.php?comeFrom=./index.php">&#9881;&nbsp;Einstellungen</a>

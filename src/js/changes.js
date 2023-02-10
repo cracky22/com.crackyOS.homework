@@ -1,4 +1,4 @@
-change1 ="Neue Seite: <b>Stundenplan</b>";
+change1 ="Neue Funktionen in den <b>Einstellungen</b>";
 change2 ="Einige Fehler wurden behoben";
 change3 ="";
 change4 ="";

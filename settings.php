@@ -49,6 +49,7 @@
                     <h5>Allgemeine Einstellungen</h5>
                     <button title="Falls die Hausaufgaben nicht korrekt synchronisiert oder angezeigt werden, kannst du hier tippen" class="green usrSettings" onclick="window.location.href='./shell.php?cmd=bash+./src/sh/sync.sh'">Hausaufgaben Synchronisieren</button><br>
                     <button title="Tippe hier um alle Einträge in der Hausaufgabenliste zu leeren" class="red usrSettings" onclick="window.location.href='./shell.php?cmd=bash+clearHomeWorkData.sh'">Hausaufgabenliste leeren</button><br>
+                    <button title="Tippe hier um alle Einträge in der Hausaufgabenliste unwiederherstellbar zu löschen" class="darkred usrSettings" onclick="window.location.href='./shell.php?cmd=bash+wipeHomeWorkData.sh'">Hausaufgabenliste endgültig löschen</button><br>
 			        <button title="Du hast ausversehen die Hausaufgabenliste geleert? Dann tippe hier um sie wiederherzustellen" class="orange usrSettings" onclick="window.location.href='./shell.php?cmd=bash+restoreHomeWorkData.sh'">Gelöschte Hausaufgaben wiederherstellen</button><br>
                     <button title="Falls du die Hausaufgaben ohne Schreibrechte teilen willst, kannst du hier tippen" class="brown usrSettings" onclick="window.location.href='./HomeWorkData.html'"><b>Hausaufgabenliste teilen</button><br>
                 </center>

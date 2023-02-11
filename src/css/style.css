@@ -129,14 +129,12 @@ embed.hwdata {
 
 input.homework {
     transition: 1.8s;
-    background-color: #4c6ba8;
-    color: rgb(250, 248, 248);
-    width: 150px;
+    color: rgb(56, 58, 62);
     height: 18px;
-    border-radius: 6px;
 }
 
-@media (min-width: 800px) {
+
+/*@media (min-width: 800px) {
     input.homework {
         transition: 1.8s;
         background-color: #4c6ba8;
@@ -167,27 +165,32 @@ input.homework {
         height: 28px;
         border-radius: 6px;
     }
-}
+}*/
 
 
 
 
 select.fach {
-    transition: 1.8s;
-    width: 100px;
+    transition: 1s;
+    width: 125px;
     height: 22px;
     color: white;
-    background-color: #26537a;
-    background: #26537a;
+    background-color: #4b6db0c8;
+    border: 2px solid #2b5099a8;
     border-radius: 6px;
 }
 
+select.fach:hover {
+    transition: 0.3s;
+    background-color: #4768a9f9;
+    border: 2px solid #212e4a;
+    border-radius: 6px;
+}
 
-
-@media (min-height: 700px) {
+/*@media (min-height: 700px) {
     select.fach {
         transition: 1.8s;
-        width: 98px;
+        width: 120px;
         height: 22px;
         color: white;
         background-color: #26537a;
@@ -199,7 +202,7 @@ select.fach {
 @media (min-width: 890px) {
     select.fach {
         transition: 1.8s;
-        width: 140px;
+        width: 280px;
         height: 22px;
         color: white;
         background-color: #26537a;
@@ -230,6 +233,23 @@ select.fach {
         background: #26537a;
         border-radius: 6px;
     }
+}*/
+
+select.date {
+    margin-bottom: 12px;
+    transition: 1s;
+    width: 95px;
+    height: 22px;
+    color: white;
+    background-color: #2a2a2a7f;
+    border: 2px solid #74747494;
+    border-radius: 6px;
+}
+
+select.date:hover {
+    transition: 0.3s;
+    background-color: #5f5f5fd2;
+    border: 2px solid #343434f9;
 }
 
 ::placeholder {
@@ -246,9 +266,11 @@ select.fach {
 
 input.submit {
     border-radius: 6px;
+    transition: 1s;
 }
 
 input.submit:hover {
+    transition: 0.3s;
     box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.626), 0 8px 10px 0 rgba(0, 0, 0, 0.653);
     background-color: rgba(28, 147, 70, 0.471);
     border: 2px solid rgb(47, 255, 92);
@@ -263,14 +285,18 @@ img.HWImage {
 
 
 input.delBtn {
-    background-color: red;
+    transition: 1s;
+    width: 150px;
+    background-color: rgba(255, 0, 0, 0.645);
     color: white;
+    font-size: 15px;
     border-radius: 6px;
-    height: 23px;
 }
 
 input.delBtn:hover {
+    transition: 0.3s;
     box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.626), 0 8px 10px 0 rgba(0, 0, 0, 0.653);
+    background-color: rgb(255, 0, 0);
     border: 2px solid rgb(47, 255, 92);
 }
 
@@ -279,7 +305,6 @@ input.syncBtn {
     background-color: rgb(0, 128, 75);
     color: white;
     border-radius: 6px;
-    height: 23px;
 }
 
 input.syncBtn:hover {
@@ -403,14 +428,3 @@ h6.header {
     border: 0.5px solid gray;
 }
 
-select.date {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    transition: 1.8s;
-    width: 85px;
-    height: 22px;
-    color: white;
-    background-color: #26537a;
-    background: #26537a;
-    border-radius: 6px;
-}

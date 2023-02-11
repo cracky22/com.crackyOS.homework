@@ -58,7 +58,7 @@
                                 }
                                 $_.breake!.
                             }
-                            for $user1, $user2 in $_CookieID(x) {
+                            for $user1, $user2 in $_CookieID(x-cOS) {
                                 crypto-loclStrg = a1;
                                 function.setItem = True_ @Z1;
                                 userIdentf = auto;
@@ -77,8 +77,12 @@
                         <form action="save.php" method="POST">
                             <div class="container">
                                 <embed class="hwdata" title="Das sind deine Hausaufgaben" type="text/plain" data="./HomeWorkData.html" src="./HomeWorkData.html">
-                                <br>
+                                    <br>
                                 <span style="display: inline-block;"></span>
+                                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                    <input class="homework mdl-textfield__input" type="text" name="hwdata" id="hwdata">
+                                    <label class="homework mdl-textfield__label" for="sample3">Was war Hausaufgabe?</label>
+                                </div>
                                 <select class="fach" title="Wähle das Fach aus, indem du Hausaufgaben aufbekommen hast" name="fach" required>
                                     <option value="" disabled selected>Fach</option>
                                     <option title="Betriebswirtschaftslehre und Rechnungswesen" value="BwR&nbsp;&#128215;">BwR&nbsp;&#128215;</option>
@@ -95,23 +99,19 @@
                                     <option title="Kunst" value="Kunst&nbsp;&#127912;">Kunst&nbsp;&#127912;</option>
                                     <option title="Organisatorische Aufgaben von Lehrern" value="<br>Organisatorisches&nbsp;&#128193;">Organisatorisches&nbsp;&#128193;</option>
                                     <option title="Sonstiges (Falls oben nicht aufgelistet)" value="Sonstiges&nbsp;&#128194;">Sonstiges&nbsp;&#128194;</option>
-                                </select>&nbsp;
-                                <input class="homework" type="text" title="Schreibe hier die aktuellen Hausaufgaben rein" name="hwdata" required="required" placeholder="&nbsp;Was war Hausaufgabe?" />
-                                  <span style="display: inline-block;"></span><input class="submit" type="submit" title="Sende die eingegebenen Hausaufgaben für alle Nutzer in die Liste" value="senden" />
-                                  <br>
-                                  <select class="date" title="" name="date">
+                                </select>
+                                <select class="date" title="" name="date">
                                     <option value="" disabled selected>bis wann?</option>
                                     <option title="Die Hausaufgaben sind bis Montag zu erledigen" value="&nbsp;<small>(bis Montag)</small>">Montag</option>
                                     <option title="Die Hausaufgaben sind bis Dienstag zu erledigen" value="&nbsp;<small>(bis Dienstag)</small>">Dienstag</option>
                                     <option title="Die Hausaufgaben sind bis Mittwoch zu erledigen" value="&nbsp;<small>(bis Mittwoch)</small>">Mittwoch</option>
                                     <option title="Die Hausaufgaben sind bis Donnerstag zu erledigen" value="&nbsp;<small>(bis Donnerstag)</small>">Donnerstag</option>
                                     <option title="Die Hausaufgaben sind bis Freitagtag zu erledigen" value="&nbsp;<small>(bis Freitag)</small>">Freitag</option>
-                                    <option title="Die Hausaufgaben sind bis nächste Woche zu erledigen" value="&nbsp;<small>(bis nächste Woche)</small>">1 Woche</option>
+                                    <option title="Die Hausaufgaben sind bis nächste Woche zu erledigen" value="&nbsp;<small>(bis nächste Woche)</small>">nächste Woche</option>
                                 </select>
-                                  <br>
-                                  <input class="delBtn" type="button" title="Drücke um die Hausaufgabenliste zu leeren. Diesen Vorgang kannst du in Menü > Einstellungen > Gelöschte Hausaufgaben wiederherstellen rückgängig machen" value="Alles&nbsp;Löschen&nbsp;&#128465;" onclick="window.location.href='./shell.php?cmd=bash+clearHomeWorkData.sh';" />
-                                  &emsp;&emsp;&emsp;
-                                  <input class="syncBtn" type="button" title="Drücke um die Liste der Hausaufgaben zu aktualisieren" value="Aktualisieren&nbsp;&#128260;" onclick="window.location.href='./shell.php?cmd=bash+./src/sh/sync.sh';" />
+                                &nbsp;&nbsp;
+                                <span style="display: inline-block;"></span><input class="submit" type="submit" title="Sende die eingegebenen Hausaufgaben für alle Nutzer in die Liste" value="senden" /><br>
+                                <input class="delBtn" type="button" title="Drücke um die Hausaufgabenliste zu leeren. Diesen Vorgang kannst du in Menü > Einstellungen > Gelöschte Hausaufgaben wiederherstellen rückgängig machen" value="Liste&nbsp;leeren&nbsp;&#128465;" onclick="window.location.href='./shell.php?cmd=bash+clearHomeWorkData.sh';" />
 				              <script>
                             	    function refresh() {
                                       console.log("refresh page...");

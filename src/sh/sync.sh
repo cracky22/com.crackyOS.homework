@@ -2,4 +2,4 @@ cat HomeWorkData.html | tree -f
 /etc/init.d/apache2 sync
 crackyOS--command-syncUserInputData:backend--true
 sync
-sleep 0.8
+sleep 0.4

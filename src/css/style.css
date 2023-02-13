@@ -134,42 +134,6 @@ input.homework {
 }
 
 
-/*@media (min-width: 800px) {
-    input.homework {
-        transition: 1.8s;
-        background-color: #4c6ba8;
-        color: rgb(250, 248, 248);
-        width: 240px;
-        height: 18px;
-        border-radius: 6px;
-    }
-}
-
-@media (min-width: 980px) {
-    input.homework {
-        transition: 1.8s;
-        background-color: #4c6ba8;
-        color: rgb(250, 248, 248);
-        width: 320px;
-        height: 18px;
-        border-radius: 6px;
-    }
-}
-
-@media (min-width: 1000px) {
-    input.homework {
-        transition: 1.8s;
-        background-color: #4c6ba8;
-        color: rgb(250, 248, 248);
-        width: 360px;
-        height: 28px;
-        border-radius: 6px;
-    }
-}*/
-
-
-
-
 select.fach {
     transition: 1s;
     width: 125px;
@@ -187,53 +151,6 @@ select.fach:hover {
     border-radius: 6px;
 }
 
-/*@media (min-height: 700px) {
-    select.fach {
-        transition: 1.8s;
-        width: 120px;
-        height: 22px;
-        color: white;
-        background-color: #26537a;
-        background: #26537a;
-        border-radius: 6px;
-    }
-}
-
-@media (min-width: 890px) {
-    select.fach {
-        transition: 1.8s;
-        width: 280px;
-        height: 22px;
-        color: white;
-        background-color: #26537a;
-        background: #26537a;
-        border-radius: 6px;
-    }
-}
-
-@media (min-width: 980px) {
-    select.fach {
-        transition: 1.8s;
-        width: 200px;
-        height: 22px;
-        color: white;
-        background-color: #26537a;
-        background: #26537a;
-        border-radius: 6px;
-    }
-}
-
-@media (min-width: 1000px) {
-    select.fach {
-        transition: 1.8s;
-        width: 220px;
-        height: 28px;
-        color: white;
-        background-color: #26537a;
-        background: #26537a;
-        border-radius: 6px;
-    }
-}*/
 
 select.date {
     margin-bottom: 12px;
@@ -355,6 +272,7 @@ button.usrSettings:hover {
     transition: 0.3s;
 }
 
+
 button.red {
     background-color: rgba(255, 0, 0, 0.76);
     color: white;
@@ -364,6 +282,7 @@ button.red {
     border-radius: 20px;
 }
 
+
 button.darkred {
     background-color: rgba(149, 4, 4, 0.76);
     color: white;
@@ -372,6 +291,7 @@ button.darkred {
     border: 2.5px solid rgb(0, 0, 0);
     border-radius: 20px;
 }
+
 
 button.green {
     background-color: rgba(52, 110, 40, 0.752);
@@ -421,6 +341,7 @@ button.anthrBlue {
     border: 2.5px solid rgb(0, 0, 0);
     border-radius: 20px;
 }
+
 
 h6.header {
     height: 105px;

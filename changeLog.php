@@ -25,25 +25,40 @@
                 </span>
                 <div class="mdl-layout-spacer"></div>
                 <nav class="mdl-navigation mdl-layout--large-screen-only">
-                    
+
                 </nav>
             </div>
         </header>
         <div class="mdl-layout__drawer">
             <span class="mdl-layout-title"><b>Menü</b>&nbsp;-&nbsp;<small>Änderungen</small></span>
             <nav class="mdl-navigation">
-                <a class="mdl-navigation__link" title="Zurück&nbsp;gehen" href="./index.php?comeFrom=./changeLog.php">&#127968;&nbsp;Home</a>
-                <a class="mdl-navigation__link" title="Links&nbsp;ansehen" href="./links.php?comeFrom=./changeLog.php">&#128279;&nbsp;Links</a>
-                <a class="mdl-navigation__link" title="Termine&nbsp;ansehen" href="./calendar.php?comeFrom=./changelog.php">&#128467;&nbsp;Termine</a>
-                <a class="mdl-navigation__link" title="Stundenplan&nbsp;öffnen" href="./timetable.php?comeFrom=./changeLog.php">&#128198;&nbsp;Stundenplan</a>
-                <a class="mdl-navigation__link" title="Datenschutz&nbsp;öffnen" href="./p/Datenschutz.php?comeFrom=../changeLog.php">&#128272;&nbsp;Datenschutz</a>
-                <a class="mdl-navigation__link" title="Impressum&nbsp;öffnen" href="./p/Impressum.php?comeFrom=../changeLog.php">&#128209;&nbsp;Impressum</a>
-                <a class="mdl-navigation__link" title="&#9881;&nbsp;Einstellungen" href="./settings.php?comeFrom=./changeLog.php">&#9881;&nbsp;Einstellungen</a>
-                <a class="mdl-navigation__link" title="E-Mail schreiben" href="mailto:cracky2208@gmail.com?subject=report from com.crackyOS.homework">&#128231;&nbsp;Kontakt</a>
-                <a class="mdl-navigation__link" title="Info&nbsp;zu&nbsp;aktuellen&nbsp;Version&nbsp;+&nbsp;Änderungen" href="#dubleClick"><p class="version"><script src="./src/js/version.js"></script></p></a>
-                <a class="mdl-navigation__link" style="background-color: #c3c3c34f;" title="&copy;&nbsp;Martin&nbsp;Blieninger" href="#">&#169;&nbsp;<b>cracky></b>&nbsp;<small>by&nbsp;Martin&nbsp;B.<sup>&nbsp;2023</sup></small></a>
+                <a class="mdl-navigation__link" title="Zurück&nbsp;gehen"
+                    href="./index.php?comeFrom=./changeLog.php">&#127968;&nbsp;Home</a>
+                <a class="mdl-navigation__link" title="Links&nbsp;ansehen"
+                    href="./links.php?comeFrom=./changeLog.php">&#128279;&nbsp;Links</a>
+                <a class="mdl-navigation__link" title="Termine&nbsp;ansehen"
+                    href="./calendar.php?comeFrom=./changelog.php">&#128467;&nbsp;Termine</a>
+                <a class="mdl-navigation__link" title="Stundenplan&nbsp;öffnen"
+                    href="./timetable.php?comeFrom=./changeLog.php">&#128198;&nbsp;Stundenplan</a>
+                <a class="mdl-navigation__link" title="Datenschutz&nbsp;öffnen"
+                    href="./p/Datenschutz.php?comeFrom=../changeLog.php">&#128272;&nbsp;Datenschutz</a>
+                <a class="mdl-navigation__link" title="Impressum&nbsp;öffnen"
+                    href="./p/Impressum.php?comeFrom=../changeLog.php">&#128209;&nbsp;Impressum</a>
+                <a class="mdl-navigation__link" title="&#9881;&nbsp;Einstellungen"
+                    href="./settings.php?comeFrom=./changeLog.php">&#9881;&nbsp;Einstellungen</a>
+                <a class="mdl-navigation__link" title="E-Mail schreiben"
+                    href="mailto:cracky2208@gmail.com?subject=report from com.crackyOS.homework">&#128231;&nbsp;Kontakt</a>
+                <a class="mdl-navigation__link" title="Info&nbsp;zu&nbsp;aktuellen&nbsp;Version&nbsp;+&nbsp;Änderungen"
+                    href="#dubleClick">
+                    <p class="version">
+                        <script src="./src/js/version.js"></script>
+                    </p>
+                </a>
+                <a class="mdl-navigation__link" style="background-color: #c3c3c34f;"
+                    title="&copy;&nbsp;Martin&nbsp;Blieninger"
+                    href="#">&#169;&nbsp;<b>cracky></b>&nbsp;<small>by&nbsp;Martin&nbsp;B.<sup>&nbsp;2023</sup></small></a>
                 <img class="qr-share" src="./src/img/qr-share-homework.png">
-                    <p class="qr-text">QR-Code zum teilen</p>
+                <p class="qr-text">QR-Code zum teilen</p>
                 </img>
             </nav>
         </div>
@@ -52,37 +67,39 @@
                 <div class="changes">
                     <h3 class="NewsHeader">Was gibt's Neues?</h3>
                     <center>
-			<p class="version">
-			    <script src="./src/js/version.js"></script>
-			</p>
-			<p class="info">
+                        <p class="version">
+                            <script src="./src/js/version.js"></script>
+                        </p>
+                        <p class="info">
                             <script src="./src/js/patchInfo.js"></script>
                         </p>
                         <br>
                         <p class="changes">
-			    <b>Änderungen:</b><br>
+                            <b>Änderungen:</b><br>
                             <script src="./src/js/changes.js"></script>
                         </p>
-			<br>
-			<button title="Wenn du nach Updates sehen willst oder die Seite nicht korrekt geladen hat, kannst du sie hier aktualisieren" onclick="refresh()">
-			    manuell
-                    <br>
-                aktualisieren
-			</button>
+                        <br>
+                        <button
+                            title="Wenn du nach Updates sehen willst oder die Seite nicht korrekt geladen hat, kannst du sie hier aktualisieren"
+                            onclick="refresh()">
+                            manuell
+                            <br>
+                            aktualisieren
+                        </button>
 
-			<script>
-			    function refresh() {
-			      console.log("refresh page...");
-			      sessionStorage.clear();
-			      localStorage.clear();
-			      location.reload();
-			    }
-			</script>
-            
-            <br>
-            
-            <img class="HWImage" src="./src/img/homework-favicon2.png" >
-            </center>
+                        <script>
+                            function refresh() {
+                                console.log("refresh page...");
+                                sessionStorage.clear();
+                                localStorage.clear();
+                                location.reload();
+                            }
+                        </script>
+
+                        <br>
+
+                        <img class="HWImage" src="./src/img/homework-favicon2.png">
+                    </center>
                 </div>
             </div>
         </main>

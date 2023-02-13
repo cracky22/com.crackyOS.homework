@@ -29,14 +29,22 @@
         <div class="mdl-layout__drawer">
             <span class="mdl-layout-title"><b>Menü</b>&nbsp;-&nbsp;<small>Stundenplan</small></span>
             <nav class="mdl-navigation">
-                <a class="mdl-navigation__link" title="Zurück&nbsp;gehen" href="./index.php?comeFrom=./timetable.php">&#127968;&nbsp;Home</a>
-                <a class="mdl-navigation__link" title="Links&nbsp;ansehen" href="./links.php?comeFrom=./timetable.php">&#128279;&nbsp;Links</a>
-                <a class="mdl-navigation__link" title="Termine&nbsp;ansehen" href="./calendar.php?comeFrom=./timetable.php">&#128467;&nbsp;Termine</a>
-                <a class="mdl-navigation__link" title="Datenschutz&nbsp;öffnen" href="./p/Datenschutz.php?comeFrom=../timetable.php">&#128272;&nbsp;Datenschutz</a>
-                <a class="mdl-navigation__link" title="Impressum&nbsp;öffnen" href="./p/Impressum.php?comeFrom=../timetable.php">&#128209;&nbsp;Impressum</a>
-                <a class="mdl-navigation__link" title="&#9881;&nbsp;Einstellungen" href="./settings.php?comeFrom=./timetable.php">&#9881;&nbsp;Einstellungen</a>
-                <a class="mdl-navigation__link" title="E-Mail schreiben" href="mailto:cracky2208@gmail.com?subject=report from com.crackyOS.homework">&#128231;&nbsp;Kontakt</a>
-                <a class="mdl-navigation__link" title="Info&nbsp;zu&nbsp;aktuellen&nbsp;Version&nbsp;+&nbsp;Änderungen" href="./changeLog.php?comeFrom=./timetable.php">
+                <a class="mdl-navigation__link" title="Zurück&nbsp;gehen"
+                    href="./index.php?comeFrom=./timetable.php">&#127968;&nbsp;Home</a>
+                <a class="mdl-navigation__link" title="Links&nbsp;ansehen"
+                    href="./links.php?comeFrom=./timetable.php">&#128279;&nbsp;Links</a>
+                <a class="mdl-navigation__link" title="Termine&nbsp;ansehen"
+                    href="./calendar.php?comeFrom=./timetable.php">&#128467;&nbsp;Termine</a>
+                <a class="mdl-navigation__link" title="Datenschutz&nbsp;öffnen"
+                    href="./p/Datenschutz.php?comeFrom=../timetable.php">&#128272;&nbsp;Datenschutz</a>
+                <a class="mdl-navigation__link" title="Impressum&nbsp;öffnen"
+                    href="./p/Impressum.php?comeFrom=../timetable.php">&#128209;&nbsp;Impressum</a>
+                <a class="mdl-navigation__link" title="&#9881;&nbsp;Einstellungen"
+                    href="./settings.php?comeFrom=./timetable.php">&#9881;&nbsp;Einstellungen</a>
+                <a class="mdl-navigation__link" title="E-Mail schreiben"
+                    href="mailto:cracky2208@gmail.com?subject=report from com.crackyOS.homework">&#128231;&nbsp;Kontakt</a>
+                <a class="mdl-navigation__link" title="Info&nbsp;zu&nbsp;aktuellen&nbsp;Version&nbsp;+&nbsp;Änderungen"
+                    href="./changeLog.php?comeFrom=./timetable.php">
                     <p class="version">
                         <script src="./src/js/version.js"></script>
                     </p>

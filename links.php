@@ -29,14 +29,22 @@
 		<div class="mdl-layout__drawer">
 			<span class="mdl-layout-title"><b>Menü</b>&nbsp;-&nbsp;<small>Links</small></span>
 			<nav class="mdl-navigation">
-				<a class="mdl-navigation__link" title="Zurück&nbsp;gehen" href="./index.php?comeFrom=./links.php">&#127968;&nbsp;Home</a>
-				<a class="mdl-navigation__link" title="Termine&nbsp;ansehen" href="./calendar.php?comeFrom=./links.php">&#128467;&nbsp;Termine</a>
-				<a class="mdl-navigation__link" title="Stundenplan&nbsp;öffnen" href="./timetable.php?comeFrom=./links.php">&#128198;&nbsp;Stundenplan</a>
-				<a class="mdl-navigation__link" title="Datenschutz&nbsp;öffnen" href="./p/Datenschutz.php?comeFrom=../links.php">&#128272;&nbsp;Datenschutz</a>
-				<a class="mdl-navigation__link" title="Impressum&nbsp;öffnen" href="./p/Impressum.php?comeFrom=../links.php">&#128209;&nbsp;Impressum</a>
-				<a class="mdl-navigation__link" title="&#9881;&nbsp;Einstellungen" href="./settings.php?comeFrom=./links.php">&#9881;&nbsp;Einstellungen</a>
-				<a class="mdl-navigation__link" title="E-Mail schreiben" href="mailto:cracky2208@gmail.com?subject=report from com.crackyOS.homework">&#128231;&nbsp;Kontakt</a>
-				<a class="mdl-navigation__link" title="Info&nbsp;zu&nbsp;aktuellen&nbsp;Version&nbsp;+&nbsp;Änderungen" href="./changeLog.php?comeFrom=./links.php">
+				<a class="mdl-navigation__link" title="Zurück&nbsp;gehen"
+					href="./index.php?comeFrom=./links.php">&#127968;&nbsp;Home</a>
+				<a class="mdl-navigation__link" title="Termine&nbsp;ansehen"
+					href="./calendar.php?comeFrom=./links.php">&#128467;&nbsp;Termine</a>
+				<a class="mdl-navigation__link" title="Stundenplan&nbsp;öffnen"
+					href="./timetable.php?comeFrom=./links.php">&#128198;&nbsp;Stundenplan</a>
+				<a class="mdl-navigation__link" title="Datenschutz&nbsp;öffnen"
+					href="./p/Datenschutz.php?comeFrom=../links.php">&#128272;&nbsp;Datenschutz</a>
+				<a class="mdl-navigation__link" title="Impressum&nbsp;öffnen"
+					href="./p/Impressum.php?comeFrom=../links.php">&#128209;&nbsp;Impressum</a>
+				<a class="mdl-navigation__link" title="&#9881;&nbsp;Einstellungen"
+					href="./settings.php?comeFrom=./links.php">&#9881;&nbsp;Einstellungen</a>
+				<a class="mdl-navigation__link" title="E-Mail schreiben"
+					href="mailto:cracky2208@gmail.com?subject=report from com.crackyOS.homework">&#128231;&nbsp;Kontakt</a>
+				<a class="mdl-navigation__link" title="Info&nbsp;zu&nbsp;aktuellen&nbsp;Version&nbsp;+&nbsp;Änderungen"
+					href="./changeLog.php?comeFrom=./links.php">
 					<p class="version">
 						<script src="./src/js/version.js"></script>
 					</p>
@@ -53,13 +61,21 @@
 			<div class="page-content">
 				<div class="links">
 					<center>
-					<h4>Standard Links</h4>
-					<button class="urlBtn" type="button" title="Schul-Website öffnen" onclick="window.location.href='https://www.home.dbrsp.de/?comeFrom=com.crackyOS.homework';">Schul-Webseite</button><br>
-					<button class="urlBtn" type="button" title="NextCloud öffnen" onclick="window.location.href='https://www.dbrsp.de/nextcloud/index.php/login?user=cracky';">NextCloud</button><br>
-					<button class="urlBtn" type="button" title="Essen bestellen" onclick="window.location.href='https://speisezeit.ddns.opc-asp.de/index.php';">Mensa - Essen bestellen</button><br>
-					<button class="urlBtn" type="button" title="Kontaktformular öffnen" onclick="window.location.href='https://www.home.dbrsp.de/index.php/kontakt/#tab-1675688104701-6';">Kontakt Lehrer</button><br>
-					<h4>Aktuelle Links</h4>
-					<button class="urlBtn" type="button" title="Börsenspiel öffnen" onclick="window.location.href='https://boersenspiel.faz.net/boersenspiel/depot_portfolio.htn?gId=28679';">Börsenspiel - Aktien</button><br>
+						<h4>Standard Links</h4>
+						<button class="urlBtn" type="button" title="Schul-Website öffnen"
+							onclick="window.location.href='https://www.home.dbrsp.de/?comeFrom=com.crackyOS.homework';">Schul-Webseite</button><br>
+						<button class="urlBtn" type="button" title="NextCloud öffnen"
+							onclick="window.location.href='https://www.dbrsp.de/nextcloud/index.php/login?user=cracky';">NextCloud</button><br>
+						<button class="urlBtn" type="button" title="Essen bestellen"
+							onclick="window.location.href='https://speisezeit.ddns.opc-asp.de/index.php';">Mensa - Essen
+							bestellen</button><br>
+						<button class="urlBtn" type="button" title="Kontaktformular öffnen"
+							onclick="window.location.href='https://www.home.dbrsp.de/index.php/kontakt/#tab-1675688104701-6';">Kontakt
+							Lehrer</button><br>
+						<h4>Aktuelle Links</h4>
+						<button class="urlBtn" type="button" title="Börsenspiel öffnen"
+							onclick="window.location.href='https://boersenspiel.faz.net/boersenspiel/depot_portfolio.htn?gId=28679';">Börsenspiel
+							- Aktien</button><br>
 					</center>
 				</div>
 			</div>

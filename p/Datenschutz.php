@@ -36,6 +36,7 @@
             <span class="mdl-layout-title"><b>Menü</b>&nbsp;-&nbsp;<small>Datenschutz</small></span>
             <nav class="mdl-navigation">
                 <a class="mdl-navigation__link" title="Zurück&nbsp;gehen" href="../index.php?comeFrom=./p/Datenschutz.php">&#127968;&nbsp;Home</a>
+                <a class="mdl-navigation__link" title="Links&nbsp;ansehen" href="../links.php?comeFrom=./p/Datenschutz.php">&#128279;&nbsp;Links</a>
                 <a class="mdl-navigation__link" title="Termine&nbsp;ansehen" href="../calendar.php?comeFrom=./p/Datenschutz.php">&#128467;&nbsp;Termine</a>
                 <a class="mdl-navigation__link" title="Stundenplan&nbsp;öffnen" href="../timetable.php?comeFrom=./p/Datenschutz.php">&#128198;&nbsp;Stundenplan</a>
                 <a class="mdl-navigation__link" title="Impressum&nbsp;öffnen" href="./Impressum.php?comeFrom=./Datenschutz.php">&#128209;&nbsp;Impressum</a>

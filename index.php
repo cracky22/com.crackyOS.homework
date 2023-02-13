@@ -31,6 +31,7 @@
         <div class="mdl-layout__drawer">
             <span class="mdl-layout-title"><b>Menü</b>&nbsp;-&nbsp;<small>Hausaufgaben</small></span>
             <nav class="mdl-navigation">
+                <a class="mdl-navigation__link" title="Links&nbsp;ansehen" href="./links.php?comeFrom=./index.php">&#128279;&nbsp;Links</a>
                 <a class="mdl-navigation__link" title="Termine&nbsp;ansehen" href="./calendar.php?comeFrom=./index.php">&#128467;&nbsp;Termine</a>
                 <a class="mdl-navigation__link" title="Stundenplan&nbsp;öffnen" href="./timetable.php?comeFrom=./index.php">&#128198;&nbsp;Stundenplan</a>
                 <a class="mdl-navigation__link" title="Datenschutz&nbsp;öffnen" href="./p/Datenschutz.php?comeFrom=../index.php">&#128272;&nbsp;Datenschutz</a>
@@ -52,9 +53,9 @@
                         <hwscript crackyOS-http_response_code=
                             import *
                             for i in arry [0 to 10] in $_reloads {
-                                set var CookieID.identification = user1
+                                set var CookieID.identification-token_get_all = user1
                                 elf {
-                                    set var CookieID.identifikation = user2
+                                    set var CookieID.identifikation-token_name = user2
                                 }
                                 $_.breake!.
                             }

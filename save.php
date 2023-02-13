@@ -19,21 +19,21 @@ $date = trim($_REQUEST["date"]);
 $br	=	"<br>";
 $filename       = "HomeWorkData.html";
 $MyFile         = fopen($filename, "a");
-$message='<p class="hwdata"><i><b>Hausaufgabe</b></i>&nbsp;in&nbsp;<u><b></u>'.$fach.'</b>'.$date.'&#58; '.$hwdata."\r\n \n";
+$message='<p class="hwdata"><u>Hausaufgabe&nbsp;in&nbsp;<b>'.$fach.'</b>'.$date.'&#58;</u> '.$hwdata."\r\n \n";
 fwrite($MyFile, $message);
 fclose($MyFile);
-$errmsg_arr[] = 'Hausaufgabe gesendet';
+$errmsg_arr[] = 'Hausaufgabe erfolgreich gesendet';
 $errflag = true;
 if($errflag) {
         $_SESSION['ERRMSG_ARR'] = $errmsg_arr;
         session_write_close();
-        header("location: index.php?comeFrom=./save.php;POST-Data=$message");
+        header("location: index.php?comeFrom=./save.php;POST-Data=$message;user=web-backend_php;");
         exit();
 }
 die;
 ?>
 <?php
-    exec("sudo bash ./src/sh/sync.sh");
+    exec("/bin/bash ./src/sh/sync.sh");
 ?>
 
 </body>

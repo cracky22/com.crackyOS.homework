@@ -1,4 +1,4 @@
-change1 ="Die Nutzeroberfläche wurde überarbeitet";
+change1 ="Neue Seite: <b>Links</b>";
 change2 ="Einige Fehler wurden behoben";
 change3 ="";
 change4 ="";

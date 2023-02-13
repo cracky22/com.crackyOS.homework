@@ -428,3 +428,21 @@ h6.header {
     border: 0.5px solid gray;
 }
 
+
+button.urlBtn {
+    background-color: rgba(48, 74, 133, 0.827);
+    height: 40px;
+    width: 180px;
+    color: white;
+    font-size: 15px;
+    font-weight: 550;
+    transition: 1.3s;
+    margin-top: 10px;
+    border: 2.5px solid rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+button.urlBtn:hover {
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.755), 0 8px 10px 0 rgba(0, 0, 0, 0.744);
+    transition: 0.3s;
+}

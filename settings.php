@@ -31,6 +31,7 @@
             <span class="mdl-layout-title"><b>Menü</b>&nbsp;-&nbsp;<small>Einstellungen</small></span>
             <nav class="mdl-navigation">
                 <a class="mdl-navigation__link" title="Zurück&nbsp;gehen" href="./index.php?comeFrom=./settings.php">&#127968;&nbsp;Home</a>
+                <a class="mdl-navigation__link" title="Links&nbsp;ansehen" href="./links.php?comeFrom=./settings.php">&#128279;&nbsp;Links</a>
                 <a class="mdl-navigation__link" title="Termine&nbsp;ansehen" href="./calendar.php?comeFrom=./settings.php">&#128467;&nbsp;Termine</a>
                 <a class="mdl-navigation__link" title="Stundenplan&nbsp;öffnen" href="./timetable.php?comeFrom=./settings.php">&#128198;&nbsp;Stundenplan</a>
                 <a class="mdl-navigation__link" title="Datenschutz&nbsp;öffnen" href="./p/Datenschutz.php?comeFrom=../settings.php">&#128272;&nbsp;Datenschutz</a>

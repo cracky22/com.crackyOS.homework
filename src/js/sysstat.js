@@ -7,7 +7,7 @@ function randomNumber(min, max) {
     return Math.random() * (max - min) + min;
 }
 
-syncTime = randomNumber(1500, 2200);
+syncTime = randomNumber(1500, 2300);
 
 setTimeout(() => {
     SystemStatus();

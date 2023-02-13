@@ -1,9 +1,7 @@
-//crackyOS zeugs
-console.log("/bin/crackyOS - start homework-launcher");
-console.log("DEBUGDATA='eXV29562784'");
+console.log("/bin/crackyOS - start homework.webApplication");
+console.log("debugKey='eXV29562784'");
 localStorage.clear();
 console.log("loading ramdisk successfully - defaults,nofail")
-//LiveServer kack laden (hintergrund)
 if ('WebSocket' in window) {
     (function () {
         function refreshCSS() {
@@ -29,11 +27,11 @@ if ('WebSocket' in window) {
             else if (msg.data == 'refreshcss') refreshCSS();
         };
         if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
-            console.log('Live reload enabled.');
+            console.log('Live reload enabled successfully.');
             sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
         }
     })();
 }
 else {
-    console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+    console.error('Update deinen Browser. Diese Version deines Browsers unterstützt die LiveReloading Funktion zum Abfragen neue Datensätzen nicht.');
 }

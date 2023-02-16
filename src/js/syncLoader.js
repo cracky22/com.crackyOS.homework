@@ -2,7 +2,7 @@ function randomNumber(min, max) {
     return Math.random() * (max - min) + min;
 }
 
-syncTime = randomNumber(2100, 12000);
+syncTime = randomNumber(4600, 12000);
 
 setTimeout(() => {
     syncHWdata();

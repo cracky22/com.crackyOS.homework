@@ -97,7 +97,7 @@
 							onclick="window.location.href='https://www.home.dbrsp.de/index.php/kontakt/#tab-1675688104701-6';">
 							Kontakt Lehrer
 						</button>
-						<br>-->
+						<br>
 
 						<h4>Aktuelle Links</h4>
 

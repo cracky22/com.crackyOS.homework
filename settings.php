@@ -88,25 +88,25 @@
 
                     <button
                         class="settingBtn mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored"
-                        onclick="window.location.href='https://www.home.dbrsp.de/?comeFrom=com.crackyOS.homework';">
+                        onclick="window.location.href='./shell.php?cmd=bash+./src/sh/sync.sh'">
                         Hausaufgaben Synchronisieren
                     </button>
                     <br>
                     <button
                         class="settingBtn mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored"
-                        onclick="window.location.href='https://www.home.dbrsp.de/?comeFrom=com.crackyOS.homework';">
+                        onclick="window.location.href='./shell.php?cmd=bash+clearHomeWorkData.sh'">
                         Hausaufgaben leeren
                     </button>
                     <br>
                     <button
                         class="settingBtn mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored"
-                        onclick="window.location.href='https://www.home.dbrsp.de/?comeFrom=com.crackyOS.homework';">
+                        onclick="window.location.href='./shell.php?cmd=bash+wipeHomeWorkData.sh'">
                         Hausaufgaben komplett löschen
                     </button>
                     <br>
                     <button
                         class="settingBtn mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored"
-                        onclick="window.location.href='https://www.home.dbrsp.de/?comeFrom=com.crackyOS.homework';">
+                        onclick="window.location.href='./HomeWorkData.html?setting=noAutoSyncMod:false;'">
                         Hausaufgaben wiederherstellen
                     </button>
                     <br>

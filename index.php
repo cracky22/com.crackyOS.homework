@@ -138,12 +138,13 @@
                                     title="Drücke um die Hausaufgabenliste zu leeren. Diesen Vorgang kannst du in Menü > Einstellungen > Gelöschte Hausaufgaben wiederherstellen rückgängig machen"
                                     value="Liste&nbsp;leeren&nbsp;&#128465;"
                                     onclick="window.location.href='./shell.php?cmd=bash+clearHomeWorkData.sh';" />-->
-
-                                <button
-                                    class="clearBtn mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect"
-                                    onclick="window.location.href='./shell.php?cmd=bash+clearHomeWorkData.sh'">
-                                    Hausaufgaben leeren
-                                </button>
+                                <div>
+                                    <button
+                                        class="clearBtn mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect"
+                                        onclick="window.location.href='./shell.php?cmd=bash+clearHomeWorkData.sh'">
+                                        Hausaufgaben leeren
+                                    </button>
+                                </div>
                                 <br>
                                 <script>
                                     function refresh() {

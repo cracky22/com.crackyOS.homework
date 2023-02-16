@@ -106,8 +106,14 @@
                     <br>
                     <button
                         class="settingBtn mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored"
-                        onclick="window.location.href='./HomeWorkData.html?setting=noAutoSyncMod:false;'">
+                        onclick="window.location.href='./shell.php?cmd=bash+restoreHomeWorkData.sh'">
                         Hausaufgaben wiederherstellen
+                    </button>
+                    <br>
+                    <button
+                        class="settingBtn mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored"
+                        onclick="window.location.href='./HomeWorkData.html?setting=noAutoSyncMod:false;'">
+                        Hausaufgabenliste Teilen
                     </button>
                     <br>
                 </center>

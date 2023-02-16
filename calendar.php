@@ -64,86 +64,97 @@
 						<table border="1" cellpadding="1" cellspacing="1" style="width:284.333px">
 							<tbody>
 								<tr>
-									<td style="width:106px">27.02.2023</td>
-									<td style="width:167px">Vocatiummesse</td>
+									<td style="width:106px">&nbsp;27.02.2023</td>
+									<td style="width:167px">&nbsp;Vocatiummesse</td>
 								</tr>
 								<tr>
-									<td style="width:106px">28.02.2023</td>
-									<td style="width:167px"><span style="background-color:#e67e22">3. Chemie
+									<td style="width:106px">&nbsp;28.02.2023</td>
+									<td style="width:167px"><span style="background-color:#e67e22">&nbsp;3. Chemie
 											Modustest</span></td>
 								</tr>
 								<tr>
-									<td style="width:106px">01.03.2023</td>
-									<td style="width:167px">1. Klassenfotos</td>
+									<td style="width:106px">&nbsp;01.03.2023</td>
+									<td style="width:167px">&nbsp;1. Klassenfotos</td>
 								</tr>
 								<tr>
-									<td style="width:106px">02.03.2023</td>
-									<td style="width:167px">2. Klassenfotos</td>
+									<td style="width:106px">&nbsp;02.03.2023</td>
+									<td style="width:167px">&nbsp;2. Klassenfotos</td>
 								</tr>
 								<tr>
-									<td style="width:106px">03.03.2023</td>
-									<td style="width:167px"><span style="background-color:#c0392b">2. Mathe
+									<td style="width:106px">&nbsp;03.03.2023</td>
+									<td style="width:167px"><span style="background-color:#c0392b">&nbsp;2. Mathe
 											Schulaufgabe</span></td>
 								</tr>
 								<tr>
-									<td style="width:106px">06. - 10.03.2023</td>
-									<td style="width:167px">Englisch Week</td>
+									<td style="width:106px">&nbsp;06. - 10.03.2023</td>
+									<td style="width:167px">&nbsp;Englisch Week</td>
 								</tr>
 								<tr>
-									<td style="width:106px">14.03.2023</td>
-									<td style="width:167px"><span style="background-color:#c0392b">2. Englisch
+									<td style="width:106px">&nbsp;14.03.2023</td>
+									<td style="width:167px"><span style="background-color:#c0392b">&nbsp;2. Englisch
 											Schulaufgabe</span></td>
 								</tr>
 								<tr>
-									<td style="width:106px">23.03.2023</td>
-									<td style="width:167px"><span style="background-color:#e74c3c">2. BwR
+									<td style="width:106px">&nbsp;23.03.2023</td>
+									<td style="width:167px"><span style="background-color:#e74c3c">&nbsp;2. BwR
 											Kurzarbeit</span>
 									</td>
 								</tr>
 								<tr>
-									<td style="width:106px">24.03.2023</td>
-									<td style="width:167px"><span style="background-color:#d35400">Deutsch
+									<td style="width:106px">&nbsp;24.03.2023</td>
+									<td style="width:167px"><span style="background-color:#d35400">&nbsp;Deutsch
 											Debatte</span>
 									</td>
 								</tr>
 								<tr>
-									<td style="width:106px">03. - 14.04.2023</td>
-									<td style="width:167px">Osterferien</td>
+									<td style="width:106px">&nbsp;03. - 14.04.2023</td>
+									<td style="width:167px">&nbsp;Osterferien</td>
 								</tr>
 								<tr>
-									<td style="width:106px">25.04.2023</td>
-									<td style="width:167px"><span style="background-color:#e67e22">4. Chemie
+									<td style="width:106px">&nbsp;25.04.2023</td>
+									<td style="width:167px"><span style="background-color:#e67e22">&nbsp;4. Chemie
 											Modustest</span></td>
 								</tr>
 								<tr>
-									<td style="width:106px">09.05.2023</td>
-									<td style="width:167px"><span style="background-color:#c0392b">3. Deutsch
+									<td style="width:106px">&nbsp;09.05.2023</td>
+									<td style="width:167px"><span style="background-color:#c0392b">&nbsp;3. Deutsch
 											Schulaufgabe</span></td>
 								</tr>
 								<tr>
-									<td style="width:106px">11.05.2023</td>
-									<td style="width:167px"><span style="background-color:#c0392b">3. BwR
+									<td style="width:106px">&nbsp;11.05.2023</td>
+									<td style="width:167px"><span style="background-color:#c0392b">&nbsp;3. BwR
 											Schulaufgabe</span></td>
 								</tr>
 								<tr>
-									<td style="width:106px">25.05.2023</td>
-									<td style="width:167px">Dominik-Brunner Fest</td>
+									<td style="width:106px">&nbsp;25.05.2023</td>
+									<td style="width:167px">&nbsp;Dominik-Brunner Fest</td>
 								</tr>
 								<tr>
-									<td style="width:106px">26.05.2023</td>
+									<td style="width:106px">&nbsp;26.05.2023</td>
 									<td style="width:167px"><span style="background-color:#c0392b">3. Mathe
 											Schulaufgabe</span></td>
 								</tr>
 								<tr>
-									<td style="width:106px">29.05.2023</td>
-									<td style="width:167px">Pfingstferien</td>
+									<td style="width:106px">&nbsp;29.05.2023</td>
+									<td style="width:167px">&nbsp;Pfingstferien</td>
 								</tr>
 							</tbody>
 						</table>
-
 						<p>&NonBreakingSpace;</p>
+						<button class="rldBtn mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored" onclick="refresh()">
+                            aktualisieren
+                        </button>
+                        <br>
 
-				</div>
+                        <script>
+                            function refresh() {
+                                console.log("refresh page...");
+                                sessionStorage.clear();
+                                localStorage.clear();
+                                location.reload();
+                            }
+                        </script>&nbsp;
+					</div>
 				</center>
 			</div>
 		</main>

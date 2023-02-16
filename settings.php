@@ -83,7 +83,34 @@
                     <button title="Falls du die Hausaufgaben ohne Schreibrechte teilen willst, kannst du hier tippen"
                         class="brown usrSettings"
                         onclick="window.location.href='./HomeWorkData.html'"><b>Hausaufgabenliste teilen</button><br>
+
+
+                    <!--<button
+                        class="settingBtn mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored"
+                        onclick="window.location.href='https://www.home.dbrsp.de/?comeFrom=com.crackyOS.homework';">
+                        Hausaufgaben Synchronisieren
+                    </button>
+                    <br>
+                    <button
+                        class="settingBtn mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored"
+                        onclick="window.location.href='https://www.home.dbrsp.de/?comeFrom=com.crackyOS.homework';">
+                        Hausaufgaben leeren
+                    </button>
+                    <br>
+                    <button
+                        class="settingBtn mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored"
+                        onclick="window.location.href='https://www.home.dbrsp.de/?comeFrom=com.crackyOS.homework';">
+                        Hausaufgaben komplett löschen
+                    </button>
+                    <br>
+                    <button
+                        class="settingBtn mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored"
+                        onclick="window.location.href='https://www.home.dbrsp.de/?comeFrom=com.crackyOS.homework';">
+                        Hausaufgaben wiederherstellen
+                    </button>
+                    <br>-->
                 </center>
+
                 <center>
                     <div class="sysstat">
                         <h6 id="sysstat" class="sysstat"></h6>
@@ -93,7 +120,15 @@
                         class="anthrBlue usrSettings"
                         onclick="window.location.href='mailto:cracky2208@gmail.com?subject=report from com.crackyOS.homework'"><b>Administrator</b>
                         Kontaktieren</button><br><br>
+
+                    <!--<button
+                        class="settingBtn mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored"
+                        onclick="window.location.href='mailto:cracky2208@gmail.com?subject=report from com.crackyOS.homework'">
+                        Administartor Kontaktieren
+                    </button>-->
+                    <br>
                 </center>
+
                 <center>
                     <div class="sysinfo">
                         <h6 class="header">

@@ -29,7 +29,7 @@ embed.hwdata {
     width: 320px;
     height: 440px;
     border: 3px solid #424242;
-    border-radius: 15px;
+    border-radius: 12px;
     background-color: lightgray;
 }
 
@@ -141,14 +141,14 @@ select.fach {
     color: white;
     background-color: #4b6db0c8;
     border: 2px solid #2b5099a8;
-    border-radius: 6px;
+    border-radius: 4.5px;
 }
 
 select.fach:hover {
     transition: 0.3s;
     background-color: #4768a9f9;
     border: 2px solid #212e4a;
-    border-radius: 6px;
+    border-radius: 4.5px;
 }
 
 
@@ -160,7 +160,7 @@ select.date {
     color: white;
     background-color: #2a2a2a7f;
     border: 2px solid #74747494;
-    border-radius: 6px;
+    border-radius: 4.5px;
 }
 
 select.date:hover {
@@ -200,7 +200,7 @@ img.HWImage {
     margin-top: 20px;
 }
 
-
+/**/
 input.delBtn {
     transition: 1s;
     width: 150px;
@@ -232,9 +232,10 @@ input.syncBtn:hover {
 
 
 div.mdl-spinner {
+    vertical-align: baseline;
     margin-left: 15px;
-    height: 25px;
-    width: 25px;
+    height: 20px;
+    width: 20px;
 }
 
 
@@ -258,6 +259,8 @@ img.qr-share:hover {
 p.qr-text {
     margin-left: 44px;
 }
+
+
 
 
 button.usrSettings {
@@ -367,3 +370,29 @@ button.urlBtn:hover {
     box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.755), 0 8px 10px 0 rgba(0, 0, 0, 0.744);
     transition: 0.3s;
 }
+
+/*
+Update auf com.crackyOS.homework Version 3.0.0
+
+button.urlBtn {
+    margin-top: 10px;
+    width: 210px;
+}
+
+
+button.settingBtn {
+    margin-top: 10px;
+    width: 300px;
+}
+
+
+button.clearBtn {
+    background-color: #e213137e;
+    font-weight: 600;
+}
+
+button.clearBtn:hover {
+    background-color: #fb0202;
+    color: white;
+}
+*/

@@ -87,6 +87,11 @@
                             aktualisieren
                         </button>
 
+                        <!--<button class="rldBtn mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored" onclick="refresh()">
+                            aktualisieren
+                        </button>-->
+                        <br>
+
                         <script>
                             function refresh() {
                                 console.log("refresh page...");
@@ -98,7 +103,8 @@
 
                         <br>
 
-                        <img class="HWImage" src="./src/img/homework-favicon2.png">
+                        <img class="HWImage" src="./src/img/homework-favicon1.png">
+                        <p><small>&copy;&nbsp;Martin&nbsp;Blieninger&nbsp;|&nbsp;<b>cracky></b></small></p>
                     </center>
                 </div>
             </div>

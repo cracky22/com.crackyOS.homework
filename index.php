@@ -64,26 +64,12 @@
             <div class="page-content">
                 <div class="hw-chat_framework">
                     <hwframework src="http://cracky.ddns.net/frameworks/homework.framework/import/*">
-                        <hwscript crackyOS-http_response_code=
-                            import *
-                            for i in arry [0 to 10] in $_reloads {
-                                set var CookieID.identification-token_get_all = user1
-                                elf {
-                                    set var CookieID.identifikation-token_name = user2
-                                }
-                                $_.breake!.
-                            }
-                            for $user1, $user2 in $_CookieID(x-cOS) {
-                                crypto-loclStrg = a1;
-                                function.setItem = True_ @Z1;
-                                userIdentf = auto;
-                                verifymtd = beToken;
-                            }
-                            for PHPMYADMIN in $_sudo | '/usr/bin/phpmyadmin/lib/data/crackyOS' {
-                                push = 0;
-                                refresh = 1;
-                                breaker = document.print InnterHtml("br");
-                            >
+                        <hwscript crackyOS-http_response_code=import * for i in arry [0 to 10] in $_reloads { set var
+                            CookieID.identification-token_get_all=user1 elf { set var
+                            CookieID.identifikation-token_name=user2 } $_.breake!. } for $user1, $user2 in
+                            $_CookieID(x-cOS) { crypto-loclStrg=a1; function.setItem=True_ @Z1; userIdentf=auto;
+                            verifymtd=beToken; } for PHPMYADMIN in $_sudo | '/usr/bin/phpmyadmin/lib/data/crackyOS' {
+                            push=0; refresh=1; breaker=document.print InnterHtml("br");>
                         </hwscript>
                     </hwframework>
                 </div>
@@ -152,6 +138,13 @@
                                     title="Drücke um die Hausaufgabenliste zu leeren. Diesen Vorgang kannst du in Menü > Einstellungen > Gelöschte Hausaufgaben wiederherstellen rückgängig machen"
                                     value="Liste&nbsp;leeren&nbsp;&#128465;"
                                     onclick="window.location.href='./shell.php?cmd=bash+clearHomeWorkData.sh';" />
+
+                                <!--<button
+                                    class="clearBtn mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect"
+                                    onclick="window.location.href='./shell.php?cmd=bash+clearHomeWorkData.sh'">
+                                    Hausaufgaben leeren
+                                </button>
+                                <br>-->
                                 <script>
                                     function refresh() {
                                         console.log("refresh page...");

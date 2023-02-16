@@ -72,10 +72,59 @@
 						<button class="urlBtn" type="button" title="Kontaktformular öffnen"
 							onclick="window.location.href='https://www.home.dbrsp.de/index.php/kontakt/#tab-1675688104701-6';">Kontakt
 							Lehrer</button><br>
+
+						<!--<button
+							class="urlBtn mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored"
+							onclick="window.location.href='https://www.home.dbrsp.de/?comeFrom=com.crackyOS.homework';">
+							Schul-Webseite
+						</button>
+						<br>
+						<button
+							class="urlBtn mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored"
+							onclick="window.location.href='https://www.dbrsp.de/nextcloud/index.php/login?user=cracky';">
+							NextCloud
+						</button>
+						<br>
+						<button
+							class="urlBtn mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored"
+							onclick="window.location.href='https://speisezeit.ddns.opc-asp.de/index.php';">
+							Mensa - Essen bestellen
+						</button>
+						<br>
+						<button
+							class="urlBtn mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored"
+							onclick="window.location.href='https://www.home.dbrsp.de/index.php/kontakt/#tab-1675688104701-6';">
+							Kontakt Lehrer
+						</button>
+						<br>-->
+
 						<h4>Aktuelle Links</h4>
+
 						<button class="urlBtn" type="button" title="Börsenspiel öffnen"
 							onclick="window.location.href='https://boersenspiel.faz.net/boersenspiel/depot_portfolio.htn?gId=28679';">Börsenspiel
 							- Aktien</button><br>
+
+
+						<!--<button
+							class="urlBtn mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored"
+							onclick="window.location.href='https://boersenspiel.faz.net/boersenspiel/depot_portfolio.htn?gId=28679';">
+							Börsenspiel - Aktien
+						</button>-->
+
+						<h4>Sonstige Links</h4>
+						<button class="rldBtn mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored" onclick="refresh()">
+                            aktualisieren
+                        </button>
+                        <br>
+
+                        <script>
+                            function refresh() {
+                                console.log("refresh page...");
+                                sessionStorage.clear();
+                                localStorage.clear();
+                                location.reload();
+                            }
+                        </script>
 					</center>
 				</div>
 			</div>

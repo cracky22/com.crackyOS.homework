@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de-De">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,21 +19,21 @@ $date = trim($_REQUEST["date"]);
 $br	=	"<br>";
 $filename       = "HomeWorkData.html";
 $MyFile         = fopen($filename, "a");
-$message='<p class="hwdata"><u>Hausaufgabe&nbsp;in&nbsp;<b>'.$fach.'</b>'.$date.'&#58;</u> '.$hwdata."\r\n \n";
+$message='<p class="hwdata"><i><b>Hausaufgabe</b></i>&nbsp;in&nbsp;<u><b></u>'.$fach.'</b>'.$date.'&#58; '.$hwdata."\r\n \n";
 fwrite($MyFile, $message);
 fclose($MyFile);
-$errmsg_arr[] = 'Hausaufgabe erfolgreich gesendet';
+$errmsg_arr[] = 'Hausaufgabe gesendet';
 $errflag = true;
 if($errflag) {
         $_SESSION['ERRMSG_ARR'] = $errmsg_arr;
         session_write_close();
-        header("location: index.php?comeFrom=./save.php;POST-Data=$message;user=web-backend_php;");
+        header("location: index.php?comeFrom=./save.php;POST-Data=$message");
         exit();
 }
 die;
 ?>
 <?php
-    exec("/bin/bash ./src/sh/sync.sh");
+    exec("sudo bash ./src/sh/sync.sh");
 ?>
 
 </body>

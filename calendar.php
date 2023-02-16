@@ -67,7 +67,7 @@
 									<td style="width:106px">&nbsp;27.02.2023</td>
 									<td style="width:167px">&nbsp;Vocatiummesse</td>
 								</tr>
-								<tr>
+								<tr style="text-decoration: line-through;">
 									<td style="width:106px">&nbsp;28.02.2023</td>
 									<td style="width:167px"><span style="background-color:#e67e22">&nbsp;3. Chemie
 											Modustest</span></td>

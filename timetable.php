@@ -236,7 +236,7 @@
                         </table>
                         <p style="text-align:justify">&nbsp;</p>
                         <p>&nbsp;</p>
-                        <!--<button class="rldBtn mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored" onclick="refresh()">
+                        <button class="rldBtn mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored" onclick="refresh()">
                             aktualisieren
                         </button>
                         <br>
@@ -248,7 +248,7 @@
                                 localStorage.clear();
                                 location.reload();
                             }
-                        </script>-->
+                        </script>
                     </center>
                 </div>
             </div>

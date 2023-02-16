@@ -134,17 +134,17 @@
                                 <span style="display: inline-block;"></span><input class="submit" type="submit"
                                     title="Sende die eingegebenen Hausaufgaben für alle Nutzer in die Liste"
                                     value="senden" /><br>
-                                <input class="delBtn" type="button"
+                                <!--<input class="delBtn" type="button"
                                     title="Drücke um die Hausaufgabenliste zu leeren. Diesen Vorgang kannst du in Menü > Einstellungen > Gelöschte Hausaufgaben wiederherstellen rückgängig machen"
                                     value="Liste&nbsp;leeren&nbsp;&#128465;"
-                                    onclick="window.location.href='./shell.php?cmd=bash+clearHomeWorkData.sh';" />
+                                    onclick="window.location.href='./shell.php?cmd=bash+clearHomeWorkData.sh';" />-->
 
-                                <!--<button
+                                <button
                                     class="clearBtn mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect"
                                     onclick="window.location.href='./shell.php?cmd=bash+clearHomeWorkData.sh'">
                                     Hausaufgaben leeren
                                 </button>
-                                <br>-->
+                                <br>
                                 <script>
                                     function refresh() {
                                         console.log("refresh page...");

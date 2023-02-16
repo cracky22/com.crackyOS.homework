@@ -111,7 +111,7 @@
                     &uuml;ber Sie erhobenen Daten durch Google in der zuvor beschriebenen Art und Weise und zu dem zuvor
                     benannten Zweck einverstanden.
                 </p>
-                <!--<center><br>
+                <center><br>
                 <button class="rldBtn mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored" onclick="refresh()">
                     aktualisieren
                 </button>
@@ -124,7 +124,7 @@
                         localStorage.clear();
                         location.reload();
                     }
-                </script>-->
+                </script>
             </div>
         </main>
     </div>

@@ -140,7 +140,7 @@
 								</tr>
 							</tbody>
 						</table>
-						<p>&NonBreakingSpace;</p>
+						<p>&NonBreakingSpace;</p><br>
 						<button class="rldBtn mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored" onclick="refresh()">
                             aktualisieren
                         </button>
@@ -153,7 +153,8 @@
                                 localStorage.clear();
                                 location.reload();
                             }
-                        </script>&nbsp;
+                        </script>
+					  &nbsp;
 					</div>
 				</center>
 			</div>

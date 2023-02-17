@@ -1,10 +1,10 @@
-patchDateDay = 16;
+patchDateDay = 17;
 patchDateMonth = 02;
 
-patchTimeHour = 20;
-patchTimeMinute = 30;
+patchTimeHour = 15;
+patchTimeMinute = 16;
 
 patchSizeF = 14;
-patchSizeS = 82;
+patchSizeS = 83;
 
 document.write("<b>-&nbsp;--&nbsp;Update&nbsp;Info&nbsp;--&nbsp-</b><br>Datum:&nbsp;" + patchDateDay + "&#46;" + patchDateMonth + "&#46;2023" + "<br>" + "Zeit&#58;&nbsp;" + patchTimeHour + "&#58;" + patchTimeMinute + "&nbsp;Uhr" + "<br>" + "Größe:&nbsp;" + patchSizeF + "&#46;" + patchSizeS + "&nbsp;MB");

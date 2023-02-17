@@ -87,28 +87,28 @@
                                     <td style="text-align:center; width:14px"><span
                                             style="font-size:14px"><strong>1</strong></span></td>
                                     <td style="text-align:center; width:35px"><span
-                                            style="font-size:14px">Deutsch</span></td>
-                                    <td style="text-align:center; width:35px"><span style="font-size:14px">BwR</span>
+                                            style="font-size:14px">Chemie</span></td>
+                                    <td style="text-align:center; width:35px"><span style="font-size:14px">WuR</span>
                                     </td>
                                     <td style="text-align:center; width:31px"><span style="font-size:14px">Reli</span>
                                     </td>
-                                    <td style="text-align:center; width:54px"><span style="font-size:14px">Kunst</span>
+                                    <td style="text-align:center; width:54px"><span style="font-size:14px">Geschichte</span>
                                     </td>
-                                    <td style="text-align:center; width:41px"><span style="font-size:14px">Physik</span>
+                                    <td style="text-align:center; width:41px"><span style="font-size:14px">Musik</span>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td style="text-align:center; width:14px"><span
                                             style="font-size:14px"><strong>2</strong></span></td>
                                     <td style="text-align:center; width:35px"><span
-                                            style="font-size:14px">Deutsch</span></td>
-                                    <td style="text-align:center; width:35px"><span style="font-size:14px">BwR</span>
+                                            style="font-size:14px">Chemie</span></td>
+                                    <td style="text-align:center; width:35px"><span style="font-size:14px">WuR</span>
                                     </td>
                                     <td style="text-align:center; width:31px"><span style="font-size:14px">Reli</span>
                                     </td>
                                     <td style="text-align:center; width:54px"><span
-                                            style="font-size:14px">Englisch</span></td>
-                                    <td style="text-align:center; width:41px"><span style="font-size:14px">Physik</span>
+                                            style="font-size:14px">Geschichte</span></td>
+                                    <td style="text-align:center; width:41px"><span style="font-size:14px">Englisch</span>
                                     </td>
                                 </tr>
                                 <tr>
@@ -128,29 +128,29 @@
                                 <tr>
                                     <td style="text-align:center; width:14px"><span
                                             style="font-size:14px"><strong>3</strong></span></td>
-                                    <td style="text-align:center; width:35px"><span style="font-size:14px">WuR</span>
+                                    <td style="text-align:center; width:35px"><span style="font-size:14px">IT</span>
                                     </td>
                                     <td style="text-align:center; width:35px"><span
-                                            style="font-size:14px">Englisch</span></td>
-                                    <td style="text-align:center; width:31px"><span style="font-size:14px">Sport</span>
+                                            style="font-size:14px">Mathe</span></td>
+                                    <td style="text-align:center; width:31px"><span style="font-size:14px">Englisch</span>
                                     </td>
                                     <td style="text-align:center; width:54px"><span
-                                            style="font-size:14px">Geschichte</span></td>
-                                    <td style="text-align:center; width:41px"><span style="font-size:14px">IT</span>
+                                            style="font-size:14px">Geographie</span></td>
+                                    <td style="text-align:center; width:41px"><span style="font-size:14px">Mathe</span>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td style="text-align:center; width:14px"><span
                                             style="font-size:14px"><strong>4</strong></span></td>
-                                    <td style="text-align:center; width:35px"><span style="font-size:14px">WuR</span>
+                                    <td style="text-align:center; width:35px"><span style="font-size:14px">IT</span>
                                     </td>
                                     <td style="text-align:center; width:35px"><span
-                                            style="font-size:14px">Englisch</span></td>
-                                    <td style="text-align:center; width:31px"><span style="font-size:14px">Sport</span>
+                                            style="font-size:14px">Kunst</span></td>
+                                    <td style="text-align:center; width:31px"><span style="font-size:14px">Englisch</span>
                                     </td>
                                     <td style="text-align:center; width:54px"><span
-                                            style="font-size:14px">Geschichte</span></td>
-                                    <td style="text-align:center; width:41px"><span style="font-size:14px">IT</span>
+                                            style="font-size:14px">Geographie</span></td>
+                                    <td style="text-align:center; width:41px"><span style="font-size:14px">Mathe</span>
                                     </td>
                                 </tr>
                                 <tr>
@@ -170,29 +170,29 @@
                                 <tr>
                                     <td style="text-align:center; width:14px"><span
                                             style="font-size:14px"><strong>5</strong></span></td>
-                                    <td style="text-align:center; width:35px"><span style="font-size:14px">Mathe</span>
+                                    <td style="text-align:center; width:35px"><span style="font-size:14px">BwR</span>
                                     </td>
-                                    <td style="text-align:center; width:35px"><span style="font-size:14px">Chemie</span>
+                                    <td style="text-align:center; width:35px"><span style="font-size:14px">Deutsch</span>
                                     </td>
-                                    <td style="text-align:center; width:31px"><span style="font-size:14px">Geo</span>
+                                    <td style="text-align:center; width:31px"><span style="font-size:14px">Sport</span>
                                     </td>
                                     <td style="text-align:center; width:54px"><span
                                             style="font-size:14px">Deutsch</span></td>
-                                    <td style="text-align:center; width:41px"><span style="font-size:14px">Mathe</span>
+                                    <td style="text-align:center; width:41px"><span style="font-size:14px">Physik</span>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td style="text-align:center; width:14px"><span
                                             style="font-size:14px"><strong>6</strong></span></td>
-                                    <td style="text-align:center; width:35px"><span style="font-size:14px">Mathe</span>
+                                    <td style="text-align:center; width:35px"><span style="font-size:14px">BwR</span>
                                     </td>
-                                    <td style="text-align:center; width:35px"><span style="font-size:14px">Chemie</span>
+                                    <td style="text-align:center; width:35px"><span style="font-size:14px">Deutsch</span>
                                     </td>
-                                    <td style="text-align:center; width:31px"><span style="font-size:14px">Geo</span>
+                                    <td style="text-align:center; width:31px"><span style="font-size:14px">Sport</span>
                                     </td>
                                     <td style="text-align:center; width:54px"><span
                                             style="font-size:14px">Deutsch</span></td>
-                                    <td style="text-align:center; width:41px"><span style="font-size:14px">Mathe</span>
+                                    <td style="text-align:center; width:41px"><span style="font-size:14px">Physik</span>
                                     </td>
                                 </tr>
                                 <tr>
@@ -200,13 +200,13 @@
                                             style="font-size:14px"><strong>MP</strong></span></td>
                                     <td style="text-align:center; width:35px"><span style="font-size:14px">Pause</span>
                                     </td>
-                                    <td style="text-align:center; width:35px"><span style="font-size:14px">Pause</span>
+                                    <td style="text-align:center; width:35px"><span style="font-size:14px">&nbsp;</span>
                                     </td>
                                     <td style="text-align:center; width:31px"><span style="font-size:14px">Pause</span>
                                     </td>
                                     <td style="text-align:center; width:54px"><span style="font-size:14px">Pause</span>
                                     </td>
-                                    <td style="text-align:center; width:41px"><span style="font-size:14px">Pause</span>
+                                    <td style="text-align:center; width:41px"><span style="font-size:14px">&nbsp;</span>
                                     </td>
                                 </tr>
                                 <tr>
@@ -215,10 +215,10 @@
                                     <td style="text-align:center; width:35px"><span style="font-size:14px">MT
                                             BF&ouml;</span></td>
                                     <td style="text-align:center; width:35px"><span
-                                            style="font-size:14px">MF&ouml;</span></td>
-                                    <td style="text-align:center; width:31px"><span style="font-size:14px">BwR</span>
+                                            style="font-size:14px"></span></td>
+                                    <td style="text-align:center; width:31px"><span style="font-size:14px">MF&ouml;</span>
                                     </td>
-                                    <td style="text-align:center; width:54px">&nbsp;</td>
+                                    <td style="text-align:center; width:54px"><span style="font-size:14px">BwR</span></td>
                                     <td style="text-align:center; width:41px">&nbsp;</td>
                                 </tr>
                                 <tr>
@@ -228,14 +228,15 @@
                                             style="font-size:14px">EF&ouml;</span></td>
                                     <td style="text-align:center; width:35px">&nbsp;</td>
                                     <td style="text-align:center; width:31px"><span
-                                            style="font-size:14px">DF&ouml;</span></td>
+                                            style="font-size:14px">SB/DF&ouml;</span></td>
                                     <td style="text-align:center; width:54px">&nbsp;</td>
                                     <td style="text-align:center; width:41px">&nbsp;</td>
                                 </tr>
                             </tbody>
                         </table>
+                        <p class="stand">Aktueller Stand: <b>16. Feb 2023</b></p>
                         <p style="text-align:justify">&nbsp;</p>
-                        <p>&nbsp;</p>
+                        <p>&nbsp;</p><br>
                         <button class="rldBtn mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored" onclick="refresh()">
                             aktualisieren
                         </button>

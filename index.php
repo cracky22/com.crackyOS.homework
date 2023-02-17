@@ -110,7 +110,7 @@
                                     <option title="Musik" value="Musik&nbsp;&#127925;">Musik&nbsp;&#127925;</option>
                                     <option title="Kunst" value="Kunst&nbsp;&#127912;">Kunst&nbsp;&#127912;</option>
                                     <option title="Organisatorische Aufgaben von Lehrern"
-                                        value="<br>Organisatorisches&nbsp;&#128193;">Organisatorisches&nbsp;&#128193;
+                                        value="Organisatorisches &#128193;">Organisatorisches&nbsp;&#128193;
                                     </option>
                                     <option title="Sonstiges (Falls oben nicht aufgelistet)"
                                         value="Sonstiges&nbsp;&#128194;">Sonstiges&nbsp;&#128194;</option>

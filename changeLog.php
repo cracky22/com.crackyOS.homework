@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./src/mdl/mdl-style.css">
     <script src="./src/mdl/mdl-script.js"></script>
     <script src="./src/js/script.js"></script>
+    <script src="./src/js/syncContent.js"></script>
     <link rel="manifest" href="./config/manifest.webmanifest">
     <link rel="stylesheet" href="./src/css/style.css">
     <meta http-equiv="Refresh" content="20; url='./changeLog.php?apt-get%20update%20-y'" />
@@ -21,13 +22,14 @@
         <header class="mdl-layout__header">
             <div class="mdl-layout__header-row">
                 <span class="mdl-layout-title">&#128260;&nbsp;Update&nbsp;&#45;&nbsp;Neuigkeiten
-                    <div class="mdl-spinner mdl-js-spinner is-active"></div>
+                    
                 </span>
                 <div class="mdl-layout-spacer"></div>
                 <nav class="mdl-navigation mdl-layout--large-screen-only">
 
                 </nav>
             </div>
+            <div id="p2" class="mdl-progress mdl-js-progress mdl-progress__indeterminate"></div>
         </header>
         <div class="mdl-layout__drawer">
             <span class="mdl-layout-title"><b>Menü</b>&nbsp;-&nbsp;<small>Änderungen</small></span>

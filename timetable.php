@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./src/mdl/mdl-style.css">
     <script src="./src/mdl/mdl-script.js"></script>
     <script src="./src/js/script.js"></script>
+    <script src="./src/js/syncContent.js"></script>
     <link rel="manifest" href="./config/manifest.webmanifest">
     <link rel="stylesheet" href="./src/css/style.css">
     <link rel="icon" type="image/x-icon" href="./src/img/homework-favicon1.png">
@@ -25,6 +26,7 @@
 
                 </nav>
             </div>
+            <div id="p2" class="mdl-progress mdl-js-progress mdl-progress__indeterminate"></div>
         </header>
         <div class="mdl-layout__drawer">
             <span class="mdl-layout-title"><b>Menü</b>&nbsp;-&nbsp;<small>Stundenplan</small></span>

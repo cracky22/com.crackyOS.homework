@@ -13,6 +13,7 @@
     <script src="./src/js/syncLoader.js"></script>
     <link rel="manifest" href="./config/manifest.webmanifest">
     <link rel="stylesheet" href="./src/css/style.css">
+    <script src="https://consent.cookiefirst.com/sites/cracky.ddns.net-59a7ab1b-448b-4c3b-a3af-901feeb159d2/consent.js"></script>
     <link rel="icon" type="image/x-icon" href="./src/img/homework-favicon1.png">
     <title>Hausaufgaben 9E</title>
 </head>

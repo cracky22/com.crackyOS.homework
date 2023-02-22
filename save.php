@@ -19,7 +19,7 @@ $date = trim($_REQUEST["date"]);
 $br	=	"<br>";
 $filename       = "HomeWorkData.html";
 $MyFile         = fopen($filename, "a");
-$message='<p class="hwdata"><i><b>Hausaufgabe</b></i>&nbsp;in&nbsp;<u><b></u>'.$fach.'</b>'.$date.'&#58; '.$hwdata."\r\n \n";
+$message='<p class="hwdata"><i><b>Hausaufgabe</b></i>&nbsp;in&nbsp;<b>'.$fach.'</b>'.$date.'&#58; '.$hwdata."\r\n \n";
 fwrite($MyFile, $message);
 fclose($MyFile);
 $errmsg_arr[] = 'Hausaufgabe gesendet';
@@ -32,6 +32,7 @@ if($errflag) {
 }
 die;
 ?>
+
 <?php
     exec("sudo bash ./src/sh/sync.sh");
 ?>

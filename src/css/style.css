@@ -211,8 +211,13 @@ div.mdl-spinner {
 
 div.mdl-progress {
     width: auto;
+    transition: 0.8s ease-out;
 }
 
+::-webkit-progress-bar:-ms-input-placeholder::content::before {
+    -moz-box-direction: calc(auto + x min-height);
+    -moz-transition-delay: initial;
+}
 
 img.qr-share {
     height: 120px;

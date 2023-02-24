@@ -87,6 +87,12 @@
 							Kontakt Lehrer
 						</button>
 						<br>
+						<button
+							class="urlBtn mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored"
+							onclick="window.location.href='https://schul-net.ch/notenrechner/'">
+							Notenrechner
+						</button>
+						<br>
 
 						<h4>Aktuelle Links</h4>
 

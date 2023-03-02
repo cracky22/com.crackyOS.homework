@@ -12,7 +12,7 @@
     <script src="./src/js/syncContent.js"></script>
     <link rel="manifest" href="./config/manifest.webmanifest">
     <link rel="stylesheet" href="./src/css/style.css">
-    <meta http-equiv="Refresh" content="20; url='./changeLog.php?apt-get%20update%20-y'" />
+    <!--<meta http-equiv="Refresh" content="20; url='./changeLog.php?apt-get%20update%20-y'" />-->
     <link rel="icon" type="image/x-icon" href="./src/img/homework-favicon1.png">
     <title>Neuigkeiten</title>
 </head>
@@ -75,7 +75,9 @@
                         <p class="info">
                             <script src="./src/js/patchInfo.js"></script>
                         </p>
+                        
                         <br>
+                        
                         <p class="changes">
                             <b>Änderungen:</b><br>
                             <script src="./src/js/changes.js"></script>

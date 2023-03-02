@@ -65,7 +65,7 @@
 					<center>
 						<table border="1" cellpadding="1" cellspacing="1" style="width:284.333px">
 							<tbody>
-								<tr>
+								<!--<tr>
 									<td style="width:106px">&nbsp;27.02.2023</td>
 									<td style="width:167px">&nbsp;Vocatiummesse</td>
 								</tr>
@@ -86,7 +86,7 @@
 									<td style="width:106px">&nbsp;03.03.2023</td>
 									<td style="width:167px"><span style="background-color:#c0392b">&nbsp;2. Mathe
 											Schulaufgabe</span></td>
-								</tr>
+								</tr>-->
 								<tr>
 									<td style="width:106px">&nbsp;06. - 10.03.2023</td>
 									<td style="width:167px">&nbsp;Englisch Week</td>
@@ -97,15 +97,15 @@
 											Schulaufgabe</span></td>
 								</tr>
 								<tr>
-									<td style="width:106px">&nbsp;23.03.2023</td>
-									<td style="width:167px"><span style="background-color:#e74c3c">&nbsp;2. BwR
-											Kurzarbeit</span>
-									</td>
-								</tr>
-								<tr>
 									<td style="width:106px">&nbsp;24.03.2023</td>
 									<td style="width:167px"><span style="background-color:#d35400">&nbsp;Deutsch
 											Debatte</span>
+									</td>
+								</tr>
+								<tr>
+									<td style="width:106px">&nbsp;23.03.2023</td>
+									<td style="width:167px"><span style="background-color:#e74c3c">&nbsp;2. BwR
+											Kurzarbeit</span>
 									</td>
 								</tr>
 								<tr>
@@ -116,6 +116,11 @@
 									<td style="width:106px">&nbsp;25.04.2023</td>
 									<td style="width:167px"><span style="background-color:#e67e22">&nbsp;4. Chemie
 											Modustest</span></td>
+								</tr>
+								<tr>
+									<td style="width:106px">&nbsp;27.04.2023</td>
+									<td style="width:167px"><span style="background-color:#e67e22">&nbsp;2. Geschichte
+									Kurzarbeit</span></td>
 								</tr>
 								<tr>
 									<td style="width:106px">&nbsp;09.05.2023</td>
@@ -142,12 +147,15 @@
 								</tr>
 							</tbody>
 						</table>
+						
+						<p class="stand">Aktueller Stand: <b>
+							<script src="./src/js/cOS.calendar.js/lastChange.js"></script>
+						</b></p>
 						<p>&NonBreakingSpace;</p><br>
 						<button class="rldBtn mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored" onclick="refresh()">
                             aktualisieren
                         </button>
                         <br>
-
                         <script>
                             function refresh() {
                                 console.log("refresh page...");

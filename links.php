@@ -72,7 +72,7 @@
 						<button
 							class="urlBtn mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored"
 							onclick="window.location.href='https://www.dbrsp.de/nextcloud/index.php/login?user=cracky'">
-							NextCloud
+							NextCloud Schulcloud
 						</button>
 						<br>
 						<button
@@ -84,13 +84,13 @@
 						<button
 							class="urlBtn mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored"
 							onclick="window.location.href='https://www.home.dbrsp.de/index.php/kontakt/#tab-1675688104701-6'">
-							Kontakt Lehrer
+							Kontakt zum Lehrer
 						</button>
 						<br>
 						<button
 							class="urlBtn mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored"
 							onclick="window.location.href='https://schul-net.ch/notenrechner/'">
-							Notenrechner
+							Notenschnitt Rechner
 						</button>
 						<br>
 
@@ -99,7 +99,7 @@
 						<button
 							class="urlBtn mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored"
 							onclick="window.location.href='https://boersenspiel.faz.net/boersenspiel/depot_portfolio.htn?gId=28679'">
-							Börsenspiel - Aktien
+							Börsenspiel 9E - Aktien
 						</button>
 
 						<h4>Sonstige Links</h4>
@@ -115,6 +115,7 @@
                                 sessionStorage.clear();
                                 localStorage.clear();
                                 location.reload();
+								window.location.href='./index.php?sys=refresh;'
                             }
                         </script>
 					</center>

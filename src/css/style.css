@@ -13,15 +13,22 @@ h3.NewsHeader {
 
 
 p.changes {
+    transition: 3s;
     font-size: 120%;
     color: #152367;
 }
 
 
 p.info {
-    width: 130px;
+    transition: 2s;
+    width: 150px;
     border-radius: 10px;
     border: 1px solid black;
+}
+
+p.info:hover {
+    transition: 7s;
+    filter: blur(12px);
 }
 
 embed.hwdata {
@@ -135,7 +142,7 @@ input.homework {
 
 
 select.fach {
-    transition: 1s;
+    transition: 1.2s;
     width: 125px;
     height: 22px;
     color: white;
@@ -145,7 +152,7 @@ select.fach {
 }
 
 select.fach:hover {
-    transition: 0.3s;
+    transition: 0.5s;
     background-color: #4768a9f9;
     border: 2px solid #212e4a;
     border-radius: 4.5px;
@@ -154,17 +161,17 @@ select.fach:hover {
 
 select.date {
     margin-bottom: 12px;
-    transition: 1s;
+    transition: 1.2s;
     width: 95px;
     height: 22px;
     color: white;
-    background-color: #2a2a2a7f;
+    background-color: #2a2a2a48;
     border: 2px solid #74747494;
     border-radius: 4.5px;
 }
 
 select.date:hover {
-    transition: 0.3s;
+    transition: 0.5s;
     background-color: #5f5f5fd2;
     border: 2px solid #343434f9;
 }
@@ -188,16 +195,22 @@ input.submit {
 
 input.submit:hover {
     transition: 0.3s;
-    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.626), 0 8px 10px 0 rgba(0, 0, 0, 0.653);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.448), 0 6px 8px 0 rgba(0, 0, 0, 0.448);
     background-color: rgba(28, 147, 70, 0.471);
     border: 2px solid rgb(47, 255, 92);
 }
 
 
 img.HWImage {
+    transition: 2.4s;
     height: 150px;
     width: 160px;
     margin-top: 20px;
+}
+
+img.HWImage:hover {
+    transition: 7s;
+    filter: blur(120px);
 }
 
 
@@ -216,7 +229,6 @@ div.mdl-progress {
 
 ::-webkit-progress-bar:-ms-input-placeholder::content::before {
     -moz-box-direction: calc(auto + x min-height);
-    -moz-transition-delay: initial;
 }
 
 img.qr-share {
@@ -238,7 +250,7 @@ p.qr-text {
 
 button.urlBtn {
     margin-top: 10px;
-    width: 210px;
+    width: 250px;
 }
 
 
@@ -249,11 +261,12 @@ button.settingBtn {
 
 
 button.clearBtn {
-    background-color: #e213137e;
+    background-color: #e2131350;
     font-weight: 600;
 }
 
 button.clearBtn:hover {
+    transition: 0.3s;
     background-color: #fb0202;
     color: white;
 }
@@ -261,4 +274,15 @@ button.clearBtn:hover {
 p.stand {
     margin-top: 5px;
     color: #5c5c5c;
+}
+
+
+div.sysinfo {
+    height: 140px;
+    width: 294px;
+    border: 3px solid lightblue;
+}
+
+z {
+    color: rgb(67, 168, 67);
 }

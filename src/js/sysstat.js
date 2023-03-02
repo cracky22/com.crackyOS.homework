@@ -1,6 +1,6 @@
 function SystemStatus() {
-    SystemStatus = "<b>Online und Verfügbar</b>";
-    document.getElementById("sysstat").innerHTML = "Systemstatus crackyOS Server:<br>" + SystemStatus;
+    SystemStatus = "<b><z>Online</z> und Verfügbar</b>";
+    document.getElementById("sysstat").innerHTML = "Systemstatus <b>crackyOS</b> Server:<br>" + SystemStatus;
 }
 
 function randomNumber(min, max) {

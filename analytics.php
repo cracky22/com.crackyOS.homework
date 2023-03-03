@@ -10,10 +10,8 @@
 </head>
 
 <body style="background-color: gray;">
-
     <?php
             exec("/usr/bin/python3 ./src/py/analitycs.py");
     ?>
-
 </body>
 </html>

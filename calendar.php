@@ -88,13 +88,18 @@
 											Schulaufgabe</span></td>
 								</tr>-->
 								<tr>
-									<td style="width:106px">&nbsp;06. - 10.03.2023</td>
+									<td style="width:106px">&nbsp;<small>06. - 10.03.2023</small></td>
 									<td style="width:167px">&nbsp;Englisch Week</td>
 								</tr>
 								<tr>
 									<td style="width:106px">&nbsp;14.03.2023</td>
 									<td style="width:167px"><span style="background-color:#c0392b">&nbsp;2. Englisch
 											Schulaufgabe</span></td>
+								</tr>
+								<tr>
+									<td style="width:106px">&nbsp;14.03.2023</td>
+									<td style="width:167px"><span style="background-color:#d35400">&nbsp;<small>2. Physik
+											Stehgreifaufgabe</small></span></td>
 								</tr>
 								<tr>
 									<td style="width:106px">&nbsp;24.03.2023</td>
@@ -109,7 +114,7 @@
 									</td>
 								</tr>
 								<tr>
-									<td style="width:106px">&nbsp;03. - 14.04.2023</td>
+									<td style="width:106px">&nbsp;<small>03. - 14.04.2023</small></td>
 									<td style="width:167px">&nbsp;Osterferien</td>
 								</tr>
 								<tr>
@@ -172,4 +177,4 @@
 	</div>
 </body>
 
-</html>
+</html>calendar.php
